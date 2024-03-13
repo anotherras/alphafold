@@ -57,7 +57,7 @@ def apply_dropout(*, tensor, safe_key, rate, is_training, broadcast_dim=None):
             shape[broadcast_dim] = 1
         keep_rate = 1.0 - rate
         keep = jax.random.bernoulli(safe_key.get(), keep_rate, shape=shape)
-        return keep * tensor / keep_rate
+        return keep * tensor / keep_rate  # /keep_rate ?
     else:
         return tensor
 
@@ -428,12 +428,12 @@ class TemplatePairStack(hk.Module):
         gc = self.global_config
         c = self.config
 
-        if not c.num_block:
+        if not c.num_block:  # 2
             return pair_act
 
         def block(x):
             """One block of the template pair stack."""
-            pair_act, safe_key = x
+            pair_act, safe_key = x  # pair_act : N_res , N_res , 64
 
             dropout_wrapper_fn = functools.partial(
                 dropout_wrapper, is_training=is_training, global_config=gc)
@@ -912,6 +912,7 @@ class MSAColumnGlobalAttention(hk.Module):
         return msa_act
 
 
+# 感觉跟一般注意力没什么不同，start = 正常， end = 转置
 class TriangleAttention(hk.Module):
     """Triangle Attention.
 
@@ -2125,6 +2126,7 @@ class SingleTemplateEmbedding(hk.Module):
         act *= template_mask_2d[..., None]
 
         # Jumper et al. (2021) Suppl. Alg. 2 "Inference" line 9
+        # output : N_res , N_res , 64
         act = common_modules.Linear(
             num_channels,
             initializer='relu',
