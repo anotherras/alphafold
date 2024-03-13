@@ -1,0 +1,140 @@
+Query         2LJ6A
+Match_columns 177
+No_of_seqs    1 out of 1
+Neff          1
+Searched_HMMs 2844
+Date          Fri Mar  8 13:33:52 2024
+Command       hhsearch -i test.a2m -o query4.hhr -d /data/ljp/mmseq_examples/scop40/scop40 -maxseq 100 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 d3l4ra_ b.60.1.0 (A:) automate  40.0    0.85  0.0003   23.7   0.0   18  132-149     4-21  (151)
+  2 d1gkab_ b.60.1.1 (B:) Alpha-cr  27.7     1.8 0.00064   22.7   0.0   17  131-147    20-36  (174)
+  3 d2l5pa_ b.60.1.0 (A:) automate  27.6     1.8 0.00065   23.0   0.0   16  131-146    15-30  (175)
+  4 d2xsta_ b.60.1.0 (A:) automate  26.0     2.1 0.00072   22.0   0.0   15  132-146     9-23  (154)
+  5 d1avgi_ b.60.1.3 (I:) Thrombin  20.4     3.1  0.0011   21.7   0.0   17  131-147    14-31  (142)
+  6 d1zwva1 a.9.1.0 (A:2-50) autom  18.4     3.7  0.0013   19.2   0.0   36   68-106     7-42  (49)
+  7 d2a1xa1 b.82.2.9 (A:43-338) Ph  14.8     5.1  0.0018   23.0   0.0   20   99-118   207-226 (296)
+  8 d2ah5a1 c.108.1.6 (A:1-210) pr   6.9      15  0.0052   17.3   0.0   12   53-64      9-20  (210)
+  9 d2oyza1 b.82.1.22 (A:2-94) Unc   6.5      16  0.0056   17.7   0.0   16   99-114    63-78  (93)
+ 10 d3hqxa_ b.82.1.0 (A:) automate   5.6      19  0.0068   18.3   0.0   20   98-117    74-93  (105)
+
+No 1
+>d3l4ra
+Probab=39.98  E-value=0.85  Score=23.70  Aligned_cols=18  Identities=39%  Similarity=0.571  Sum_probs=13.3  Template_Neff=10.700
+
+Q 2LJ6A           132 LDGEKLSGRWHLIRTNLR  149 (177)
+Q Consensus       132 ldgeklsgrwhlirtnlr  149 (177)
+                      +|-.+++|+|+.|...-.
+T Consensus         4 fd~~k~~G~Wy~i~~~~~   21 (151)
+T d3l4ra_           4 GGLEELSGRWHSVALASN   21 (151)
+Confidence            355789999999875443
+
+
+No 2
+>d1gkab_ b.60.1.1 (B:) Alpha-crustacyanin {European lobster (Homarus gammarus) [TaxId: 6707]}
+Probab=27.74  E-value=1.8  Score=22.69  Aligned_cols=17  Identities=24%  Similarity=0.481  Sum_probs=13.2  Template_Neff=10.700
+
+Q 2LJ6A           131 ALDGEKLSGRWHLIRTN  147 (177)
+Q Consensus       131 aldgeklsgrwhlirtn  147 (177)
+                      .+|-++++|+|+.+...
+T Consensus        20 ~fd~~k~~G~Wy~v~~~   36 (174)
+T d1gkab_          20 NFDLRRYAGRWYQTHII   36 (174)
+Confidence            45667899999998753
+
+
+No 3
+>d2l5pa_ b.60.1.0 (A:) automated matches {Norway rat (Rattus norvegicus) [TaxId: 10116]}
+Probab=27.57  E-value=1.8  Score=23.00  Aligned_cols=16  Identities=19%  Similarity=0.711  Sum_probs=12.4  Template_Neff=10.400
+
+Q 2LJ6A           131 ALDGEKLSGRWHLIRT  146 (177)
+Q Consensus       131 aldgeklsgrwhlirt  146 (177)
+                      .+|-++++|+|+.+..
+T Consensus        15 ~fd~~k~~G~Wy~v~~   30 (175)
+T d2l5pa_          15 SFQSNKFQGEWFVLGL   30 (175)
+Confidence            3466789999999873
+
+
+No 4
+>d2xsta_ b.60.1.0 (A:) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=25.99  E-value=2.1  Score=21.96  Aligned_cols=15  Identities=33%  Similarity=0.804  Sum_probs=12.0  Template_Neff=10.700
+
+Q 2LJ6A           132 LDGEKLSGRWHLIRT  146 (177)
+Q Consensus       132 ldgeklsgrwhlirt  146 (177)
+                      +|-++++|+|+.|..
+T Consensus         9 fd~~~~~G~Wy~~~~   23 (154)
+T d2xsta_           9 FNAEKFSGLWYVVSM   23 (154)
+Confidence            456789999999874
+
+
+No 5
+>d1avgi_ b.60.1.3 (I:) Thrombin inhibitor {Triatomine bug (Triatoma pallidipennis) [TaxId: 30077]}
+Probab=20.41  E-value=3.1  Score=21.70  Aligned_cols=17  Identities=24%  Similarity=0.559  Sum_probs=13.4  Template_Neff=9.800
+
+Q 2LJ6A           131 ALDGEKL-SGRWHLIRTN  147 (177)
+Q Consensus       131 aldgekl-sgrwhlirtn  147 (177)
+                      .+|-+++ +|+|+.|..-
+T Consensus        14 ~fd~~kff~G~WY~i~~~   31 (142)
+T d1avgi_          14 DFKPEEFFNGTWYLAHGP   31 (142)
+Confidence            3577899 9999998743
+
+
+No 6
+>d1zwva1 a.9.1.0 (A:2-50) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=18.43  E-value=3.7  Score=19.21  Aligned_cols=36  Identities=28%  Similarity=0.469  Sum_probs=24.3  Template_Neff=7.700
+
+Q 2LJ6A            68 PCLDPAVKRLAVQVEDHPLDYADFEGSIPQGHYGAGDVI  106 (177)
+Q Consensus        68 pcldpavkrlavqvedhpldyadfegsipqghygagdvi  106 (177)
+                      .-.-|+++++|.   +|.+|.....|+-|.|-.-.+||.
+T Consensus         7 ~~~sP~ar~la~---~~gidl~~i~gtg~~g~i~~~Dv~   42 (49)
+T d1zwva1           7 TLATPAVRRLAM---ENNIKLSEVVGSGKDGRILKEDIL   42 (49)
+Confidence            345678888875   455777777777676666666764
+
+
+No 7
+>d2a1xa1 b.82.2.9 (A:43-338) Phytanoyl-CoA dioxygenase, PhyH {Human (Homo sapiens) [TaxId: 9606]}
+Probab=14.82  E-value=5.1  Score=23.04  Aligned_cols=20  Identities=10%  Similarity=0.066  Sum_probs=15.2  Template_Neff=10.100
+
+Q 2LJ6A            99 HYGAGDVIVWDRGAWTPLDD  118 (177)
+Q Consensus        99 hygagdvivwdrgawtpldd  118 (177)
+                      ...+||+++||...|---..
+T Consensus       207 ~~~aGd~vlf~~~~~H~~~~  226 (296)
+T d2a1xa1         207 VMEKGDTVFFHPLLIHGSGQ  226 (296)
+Confidence            46799999999887764433
+
+
+No 8
+>d2ah5a1 c.108.1.6 (A:1-210) predicted phosphatase SP0104 {Pneumococcus (Streptococcus pneumoniae) [TaxId: 1313]}
+Probab=6.88  E-value=15  Score=17.28  Aligned_cols=12  Identities=42%  Similarity=0.728  Sum_probs=7.5  Template_Neff=12.500
+
+Q 2LJ6A            53 LELDGTLKSWAV   64 (177)
+Q Consensus        53 leldgtlkswav   64 (177)
+                      +.+||||-....
+T Consensus         9 fD~DgtL~~~~~   20 (210)
+T d2ah5a1           9 FDLDGTLVDSSI   20 (210)
+Confidence            456777766543
+
+
+No 9
+>d2oyza1 b.82.1.22 (A:2-94) Uncharacterized protein VPA0057 {Vibrio parahaemolyticus [TaxId: 670]}
+Probab=6.50  E-value=16  Score=17.75  Aligned_cols=16  Identities=13%  Similarity=0.221  Sum_probs=13.2  Template_Neff=8.700
+
+Q 2LJ6A            99 HYGAGDVIVWDRGAWT  114 (177)
+Q Consensus        99 hygagdvivwdrgawt  114 (177)
+                      .+++||++....|...
+T Consensus        63 ~l~~Gd~i~ip~g~~h   78 (93)
+T d2oyza1          63 TYSSGESFDVEGNSSF   78 (93)
+Confidence            6899999999888654
+
+
+No 10
+>d3hqxa_ b.82.1.0 (A:) automated matches {Acinetobacter sp. [TaxId: 62977]}
+Probab=5.59  E-value=19  Score=18.28  Aligned_cols=20  Identities=10%  Similarity=0.159  Sum_probs=15.6  Template_Neff=8.000
+
+Q 2LJ6A            98 GHYGAGDVIVWDRGAWTPLD  117 (177)
+Q Consensus        98 ghygagdvivwdrgawtpld  117 (177)
+                      -.+++||+|+..+|...-+.
+T Consensus        74 ~~~~~Gd~~~iP~g~~h~~~   93 (105)
+T d3hqxa_          74 ELFRAGQSFYVPGNSLFKIE   93 (105)
+Confidence            37899999999988765443
+
+

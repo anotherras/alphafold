@@ -1,0 +1,20 @@
+# STOCKHOLM 1.0
+#=GF ID MYG_ESCGI-i2
+
+#=GS MYG_PHYCA/1-150   DE [subseq from] MYG_PHYCA
+#=GS HBB_HUMAN/3-145   DE [subseq from] HBB_HUMAN
+#=GS HBA_HUMAN/1-140   DE [subseq from] HBA_HUMAN
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+MYG_ESCGI                 VLSDAEWQLVLNIWAKVEADVAGHGQDILIRLFKGHPETLEKFDKFKHLKTEAEMKASEDLKKHGNTVLTALGGILKKKGHHE---AELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSRHPGDFGADAQAAMNKALELFRKDIAAKYKELG
+MYG_PHYCA/1-150           VLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHE---AELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKYKELG
+#=GR MYG_PHYCA/1-150   PP 8**********************************************************************************...*****************************************************************98
+HBB_HUMAN/3-145           -LTPEEKSAVTALWGKVNVDEVG--GEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLK---GTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY----
+#=GR HBB_HUMAN/3-145   PP .6788**************9987..9*********************************************************...***************************************************************....
+HBA_HUMAN/1-140           VLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHFDLS------HGSAQVKGHGKKVADALTNAVAHVDDMP---NALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY----
+#=GR HBA_HUMAN/1-140   PP 8************************************************......****************************...***************************************************************....
+GLB5_PETMA/11-129         -LSAAEKTKIRSAWAPVYSTYETSGVDILVKFFTSTPAAQEFFPKFKGLTTADQLKKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA---------------------------------
+#=GR GLB5_PETMA/11-129 PP .8*******************************************************************************999999*****************************9876.................................
+#=GC PP_cons              89999****************99************************************************************...*******************************999*******************************98
+#=GC RF                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//

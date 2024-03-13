@@ -1,0 +1,900 @@
+# STOCKHOLM 1.0
+#=GF ID MYG_ESCGI-i2
+
+#=GS MYG_PHYCA/1-153   DE [subseq from] MYG_PHYCA
+#=GS HBB_HUMAN/3-145   DE [subseq from] HBB_HUMAN
+#=GS HBA_HUMAN/1-140   DE [subseq from] HBA_HUMAN
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+MYG_ESCGI                 VLSDAEWQLVLNIWAKVEADVAGHGQDILIRLFKGHPETLEKFDKFKHLKTEAEMKASEDLKKHGNTVLTALGGILKKKGHHE---AELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSRHPGDFGADAQAAMNKALELFRKDIAAKYKELGFQG
+MYG_PHYCA/1-153           VLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHE---AELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKYKELGYQG
+#=GR MYG_PHYCA/1-153   PP 8**********************************************************************************...*********************************************************************8
+HBB_HUMAN/3-145           -LTPEEKSAVTALWGKVNVDEVG--GEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLK---GTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY-------
+#=GR HBB_HUMAN/3-145   PP .6788**************9987..9*********************************************************...***************************************************************.......
+HBA_HUMAN/1-140           VLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHFDLS------HGSAQVKGHGKKVADALTNAVAHVDDMP---NALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY-------
+#=GR HBA_HUMAN/1-140   PP 8************************************************......****************************...***************************************************************.......
+GLB5_PETMA/11-129         -LSAAEKTKIRSAWAPVYSTYETSGVDILVKFFTSTPAAQEFFPKFKGLTTADQLKKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------------
+#=GR GLB5_PETMA/11-129 PP .8*******************************************************************************999999*****************************9876....................................
+#=GC PP_cons              89999****************99************************************************************...*******************************999***********************************8
+#=GC RF                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID MYG_HORSE-i2
+
+#=GS MYG_PHYCA/2-153   DE [subseq from] MYG_PHYCA
+#=GS HBB_HUMAN/5-145   DE [subseq from] HBB_HUMAN
+#=GS HBA_HUMAN/2-140   DE [subseq from] HBA_HUMAN
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+MYG_HORSE                 GLSDGEWQQVLNVWGKVEADIAGHGQEVLIRLFTGHPETLEKFDKFKHLKTEAEMKASEDLKKHGTVVLTALGGILKKKGHHE---AELKPLAQSHATKHKIPIKYLEFISDAIIHVLHSKHPGNFGADAQGAMTKALELFRNDIAAKYKELGFQG
+MYG_PHYCA/2-153           -LSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHE---AELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKYKELGYQG
+#=GR MYG_PHYCA/2-153   PP .8*********************************************************************************...*********************************************************************8
+HBB_HUMAN/5-145           ---PEEKSAVTALWGKVNVDEVG--GEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLK---GTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY-------
+#=GR HBB_HUMAN/5-145   PP ...579*************9987..9*********************************************************...***************************************************************.......
+HBA_HUMAN/2-140           -LSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHFDLS------HGSAQVKGHGKKVADALTNAVAHVDDMP---NALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY-------
+#=GR HBA_HUMAN/2-140   PP .899*********************************************......****************************...***************************************************************.......
+GLB5_PETMA/11-129         -LSAAEKTKIRSAWAPVYSTYETSGVDILVKFFTSTPAAQEFFPKFKGLTTADQLKKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------------
+#=GR GLB5_PETMA/11-129 PP .89******************************************************************************999999***************************988775....................................
+#=GC PP_cons              .8999****************99************************************************************...*****************************99999***********************************8
+#=GC RF                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID MYG_PROGU-i2
+
+#=GS MYG_PHYCA/2-153   DE [subseq from] MYG_PHYCA
+#=GS HBB_HUMAN/5-145   DE [subseq from] HBB_HUMAN
+#=GS HBA_HUMAN/2-140   DE [subseq from] HBA_HUMAN
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+MYG_PROGU                 GLSDGEWQLVLNVWGKVEGDLSGHGQEVLIRLFKGHPETLEKFDKFKHLKAEDEMRASEELKKHGTTVLTALGGILKK---KGQHAAELAPLAQSHATKHKIPVKYLEFISEAIIQVLQSKHPGDFGADAQGAMSKALELFRNDIAAKYKELGFQG
+MYG_PHYCA/2-153           -LSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKK---KGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKYKELGYQG
+#=GR MYG_PHYCA/2-153   PP .89***************************************************************************...**************************************************************************8
+HBB_HUMAN/5-145           ---PEEKSAVTALWGKVNVDEV--GGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAH---LDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY-------
+#=GR HBB_HUMAN/5-145   PP ...579**************99..******************************************************...********************************************************************.......
+HBA_HUMAN/2-140           -LSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF------DLSHGSAQVKGHGKKVADALTNAVAH---VDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY-------
+#=GR HBA_HUMAN/2-140   PP .7889*****************************************......9*************************...********************************************************************.......
+GLB5_PETMA/11-129         -LSAAEKTKIRSAWAPVYSTYETSGVDILVKFFTSTPAAQEFFPKFKGLTTADQLKKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------------
+#=GR GLB5_PETMA/11-129 PP .79**************************************************************************9888899**********************************95....................................
+#=GC PP_cons              .7989*************************************************************************...9*************************************9***********************************8
+#=GC RF                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID MYG_SAISC-i2
+
+#=GS MYG_PHYCA/2-153   DE [subseq from] MYG_PHYCA
+#=GS HBB_HUMAN/5-145   DE [subseq from] HBB_HUMAN
+#=GS HBA_HUMAN/2-140   DE [subseq from] HBA_HUMAN
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+MYG_SAISC                 GLSDGEWQLVLNIWGKVEADIPSHGQEVLISLFKGHPETLEKFDKFKHLKSEDEMKASEELKKHGTTVLTALGGILKKKGQHE---AELKPLAQSHATKHKIPVKYLELISDAIVHVLQKKHPGDFGADAQGAMKKALELFRNDMAAKYKELGFQG
+MYG_PHYCA/2-153           -LSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHE---AELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKYKELGYQG
+#=GR MYG_PHYCA/2-153   PP .89********************************************************************************...*********************************************************************8
+HBB_HUMAN/5-145           ---PEEKSAVTALWGKVNVD--EVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLK---GTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY-------
+#=GR HBB_HUMAN/5-145   PP ...579**************..*************************************************************...***************************************************************.......
+HBA_HUMAN/2-140           -LSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF------DLSHGSAQVKGHGKKVADALTNAVAHVDDMP---NALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY-------
+#=GR HBA_HUMAN/2-140   PP .7889*****************************************......9******************************...***************************************************************.......
+GLB5_PETMA/11-129         -LSAAEKTKIRSAWAPVYSTYETSGVDILVKFFTSTPAAQEFFPKFKGLTTADQLKKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------------
+#=GR GLB5_PETMA/11-129 PP .79******************************************************************************999999*****************************9875....................................
+#=GC PP_cons              .7989******************************************************************************...*******************************999***********************************8
+#=GC RF                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID MYG_LYCPI-i2
+
+#=GS MYG_PHYCA/2-153   DE [subseq from] MYG_PHYCA
+#=GS HBB_HUMAN/5-145   DE [subseq from] HBB_HUMAN
+#=GS HBA_HUMAN/2-140   DE [subseq from] HBA_HUMAN
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+MYG_LYCPI                 GLSDGEWQIVLNIWGKVETDLAGHGQEVLIRLFKNHPETLDKFDKFKHLKTEDEMKGSEDLKKHGNTVLTALGGILKKKGHHE---AELKPLAQSHATKHKIPVKYLEFISDAIIQVLQNKHSGDFHADTEAAMKKALELFRNDIAAKYKELGFQG
+MYG_PHYCA/2-153           -LSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHE---AELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKYKELGYQG
+#=GR MYG_PHYCA/2-153   PP .89********************************************************************************...*********************************************************************8
+HBB_HUMAN/5-145           ---PEEKSAVTALWGKVNVDEVG--GEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLK---GTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY-------
+#=GR HBB_HUMAN/5-145   PP ...579*************9987..9*********************************************************...***************************************************************.......
+HBA_HUMAN/2-140           -LSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF------DLSHGSAQVKGHGKKVADALTNAVAHVDDMP---NALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY-------
+#=GR HBA_HUMAN/2-140   PP .7889*****************************************......9******************************...***************************************************************.......
+GLB5_PETMA/11-129         -LSAAEKTKIRSAWAPVYSTYETSGVDILVKFFTSTPAAQEFFPKFKGLTTADQLKKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------------
+#=GR GLB5_PETMA/11-129 PP .799******************************************************************************99999****************************99875....................................
+#=GC PP_cons              .7989****************99************************************************************...*******************************999***********************************8
+#=GC RF                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID MYG_MOUSE-i2
+
+#=GS MYG_PHYCA/2-153   DE [subseq from] MYG_PHYCA
+#=GS HBB_HUMAN/5-145   DE [subseq from] HBB_HUMAN
+#=GS HBA_HUMAN/2-140   DE [subseq from] HBA_HUMAN
+#=GS GLB5_PETMA/11-133 DE [subseq from] GLB5_PETMA
+
+MYG_MOUSE                 GLSDGEWQLVLNVWGKVEADLAGHGQEVLIGLFKTHPETLDKFDKFKNLKSEEDMKGSEDLKKHGCTVLTALGTILKK---KGQHAAEIQPLAQSHATKHKIPVKYLEFISEIIIEVLKKRHSGDFGADAQGAMSKALELFRNDIAAKYKELGFQG
+MYG_PHYCA/2-153           -LSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKK---KGHHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKYKELGYQG
+#=GR MYG_PHYCA/2-153   PP .89***************************************************************************...**************************************************************************8
+HBB_HUMAN/5-145           ---PEEKSAVTALWGKVNVDEVG--GEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAH---LDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY-------
+#=GR HBB_HUMAN/5-145   PP ...579**************987..9****************************************************...********************************************************************.......
+HBA_HUMAN/2-140           -LSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHFD-L-----SHGSAQVKGHGKKVADALTNAVAH---VDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY-------
+#=GR HBA_HUMAN/2-140   PP .7889*****************************************9.8.....9***********************...********************************************************************.......
+GLB5_PETMA/11-133         -LSAAEKTKIRSAWAPVYSTYETSGVDILVKFFTSTPAAQEFFPKFKGLTTADQLKKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVA---AGDAG-----------------------------
+#=GR GLB5_PETMA/11-133 PP .89**************************************************************************9888899***********************************...77775.............................
+#=GC PP_cons              .8989****************99*************************9*****************************...9****************************************99999****************************8
+#=GC RF                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID MYG_MUSAN-i2
+
+#=GS MYG_PHYCA/6-153   DE [subseq from] MYG_PHYCA
+#=GS HBB_HUMAN/10-145  DE [subseq from] HBB_HUMAN
+#=GS HBA_HUMAN/6-140   DE [subseq from] HBA_HUMAN
+#=GS GLB5_PETMA/16-129 DE [subseq from] GLB5_PETMA
+
+MYG_MUSAN                 VDWEKVNSVWSAVESDLTAIGQNILLRLFEQYPESQNHFPKFKN-KSL-GE-LKDTADIKAQADTVLSALGNIVKKKG---SHSQPVKALAATHITTHKIPPHYFTKITTIAVDVLSEMYPSEMNAQVQAAFSGAFKIICSDIEKEYKAANFQG
+MYG_PHYCA/6-153           -EWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTE-AE-MKASEDLKKHGVTVLTALGAILKKKG---HHEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKYKELGYQG
+#=GR MYG_PHYCA/6-153   PP .8******************************************8899.**.**************************...************************************************************************8
+HBB_HUMAN/10-145          ----AVTALWGKVNVD--EVGGEALGRLLVVYPWTQRFFESFGD-LST-PDAVMGNPKVKAHGKKVLGAFSDGLAHLD---NLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY-------
+#=GR HBB_HUMAN/10-145  PP ....79**********..**************************.***.777**************************...********************************************************9999999998.......
+HBA_HUMAN/6-140           -DKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHFD--LSH-G-----SAQVKGHGKKVADALTNAVAHVD---DMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY-------
+#=GR HBA_HUMAN/6-140   PP .5689*************************************9..***.9.....***********************...*******************************************************99988888888.......
+GLB5_PETMA/16-129         --KTKIRSAWAPVYSTYETSGVDILVKFFTSTPAAQEFFPKFKG-LTTADQ-LKKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------------
+#=GR GLB5_PETMA/16-129 PP ..689***************************************.999566.**************************9999*********************************954....................................
+#=GC PP_cons              .6799***************************************.999.88.**************************...***********************************99*******************9999999999******8
+#=GC RF                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxx.xx.xxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID HBA_AILME-i2
+
+#=GS HBA_HUMAN/1-141   DE [subseq from] HBA_HUMAN
+#=GS MYG_PHYCA/1-146   DE [subseq from] MYG_PHYCA
+#=GS HBB_HUMAN/3-145   DE [subseq from] HBB_HUMAN
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+HBA_AILME                 VLSPADKTNVKATWDKIGGHAGEYGGEALERTFASFPTTKTYFPHF------DLSP-----GSAQVKA------HGKKVADALTTAVGHLDDLPGA---LSALSDLHAHKLRVDPVNFKLLSHCLLVTLASHHPAEFTPAVHASLDKFFSAVSTVLTSKYR
+HBA_HUMAN/1-141           VLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF------DLSH-----GSAQVKG------HGKKVADALTNAVAHVDDMPNA---LSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR
+#=GR HBA_HUMAN/1-141   PP 79********************************************......****.....*******......**********************...*************************************************************7
+MYG_PHYCA/1-146           VLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRF------KHLK-----TEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAE---LKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKY-
+#=GR MYG_PHYCA/1-146   PP 79********************************************......****.....***********************************...*************************************************************.
+HBB_HUMAN/3-145           -LTPEEKSAVTALWGKVN--VDEVGGEALGRLLVVYPWTQRFFESF-----GDLSTPDAVMGNPKVKA------HGKKVLGAFSDGLAHLDNLKGT---FATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY-
+#=GR HBB_HUMAN/3-145   PP .89***************..**************************.....9555555555*******......**********************...*************************************************************.
+GLB5_PETMA/11-129         -LSAAEKTKIRSAWAPVYSTYETSGVDILVKFFTSTPAAQEFFPKFKGLTTADQLK-----KSADVRW------HAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------
+#=GR GLB5_PETMA/11-129 PP .89*****************************************************.....*******......*********************9999******************************98..............................
+#=GC PP_cons              799*******************************************......9999.....*******......**********************...*******************************9*****************************7
+#=GC RF                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx......xxxx.....xxxxxxx......xxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID HBA_PROLO-i2
+
+#=GS HBA_HUMAN/1-141   DE [subseq from] HBA_HUMAN
+#=GS HBB_HUMAN/3-145   DE [subseq from] HBB_HUMAN
+#=GS MYG_PHYCA/1-146   DE [subseq from] MYG_PHYCA
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+HBA_PROLO                 VLSPADKANIKATWDKIGGHAGEYGGEALERTFASFPTTKTYFPHF------DLSP------GSAQVKAHGKKVADALTLAVGHLDDLPGA---LSALSDLHAYKLRVDPVNFKLLSHCLLVTLACHHPAEFTPAVHASLDKFFTSVSTVLTSKYR
+HBA_HUMAN/1-141           VLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF------DLSH------GSAQVKGHGKKVADALTNAVAHVDDMPNA---LSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR
+#=GR HBA_HUMAN/1-141   PP 79********************************************......****......*****************************...*************************************************************7
+HBB_HUMAN/3-145           -LTPEEKSAVTALWGKVN--VDEVGGEALGRLLVVYPWTQRFFESF-----GDLSTPD-AVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGT---FATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY-
+#=GR HBB_HUMAN/3-145   PP .89***************..**************************.....9666677.777*****************************...*************************************************************.
+MYG_PHYCA/1-146           VLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRF------KHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAE---LKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKY-
+#=GR MYG_PHYCA/1-146   PP 6899999***************************************......*999999999*****************************...*************************************************************.
+GLB5_PETMA/11-129         -LSAAEKTKIRSAWAPVYSTYETSGVDILVKFFTSTPAAQEFFPKFKGLTTADQLK------KSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------
+#=GR GLB5_PETMA/11-129 PP .89*******************************************999999999*......****************************9999******************************98..............................
+#=GC PP_cons              689*******************************************......9999......*****************************...*******************************9*****************************7
+#=GC RF                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx......xxxx......xxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID HBA_PAGLA-i2
+
+#=GS HBA_HUMAN/1-141   DE [subseq from] HBA_HUMAN
+#=GS MYG_PHYCA/1-146   DE [subseq from] MYG_PHYCA
+#=GS HBB_HUMAN/3-145   DE [subseq from] HBB_HUMAN
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+HBA_PAGLA                 VLSSADKNNIKATWDKIGSHAGEYGAEALERTFISFPTTKTYFPHF------DLSH------GSAQVKAHGKKVADALTLAVGHLEDLPNA---LSALSDLHAYKLRVDPVNFKLLSHCLLVTLACHHPAEFTPAVHSALDKFFSAVSTVLTSKYR
+HBA_HUMAN/1-141           VLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF------DLSH------GSAQVKGHGKKVADALTNAVAHVDDMPNA---LSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR
+#=GR HBA_HUMAN/1-141   PP 79********************************************......****......*****************************...*************************************************************7
+MYG_PHYCA/1-146           VLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRF------KHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAE---LKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKY-
+#=GR MYG_PHYCA/1-146   PP 79********************************************......9995555555*****************************...*************************************************************.
+HBB_HUMAN/3-145           -LTPEEKSAVTALWGKVN--VDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVM------GNPKVKAHGKKVLGAFSDGLAHLDNLKGT---FATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY-
+#=GR HBB_HUMAN/3-145   PP .789**************..**************************9655555558......*****************************...*************************************************************.
+GLB5_PETMA/11-129         -LSAAEKTKIRSAWAPVYSTYETSGVDILVKFFTSTPAAQEFFPKFKGLTTADQLK------KSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------
+#=GR GLB5_PETMA/11-129 PP .8********************************************999999999*......****************************9999******************************98..............................
+#=GC PP_cons              789*******************************************......8888......*****************************...*******************************9*****************************7
+#=GC RF                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx......xxxx......xxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID HBA_MACFA-i2
+
+#=GS HBA_HUMAN/1-141   DE [subseq from] HBA_HUMAN
+#=GS MYG_PHYCA/1-146   DE [subseq from] MYG_PHYCA
+#=GS HBB_HUMAN/3-145   DE [subseq from] HBB_HUMAN
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+HBA_MACFA                 VLSPADKTNVKAAWGKVGGHAGEYGAEALERMFLSFPTTKTYFPHF------DLS------HGSAQVKGHGKKVADALTLAVGHVDD---MPQALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR
+HBA_HUMAN/1-141           VLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF------DLS------HGSAQVKGHGKKVADALTNAVAHVDD---MPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR
+#=GR HBA_HUMAN/1-141   PP 79********************************************......***......**************************...*****************************************************************7
+MYG_PHYCA/1-146           VLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRF------KHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGH---HEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKY-
+#=GR MYG_PHYCA/1-146   PP 79********************************************......999999999**************************...*****************************************************************.
+HBB_HUMAN/3-145           -LTPEEKSAVTALWGKVN--VDEVGGEALGRLLVVYPWTQRFFESF-----GDLSTP-DAVMGNPKVKAHGKKVLGAFSDGLAHLDN---LKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY-
+#=GR HBB_HUMAN/3-145   PP .89***************..**************************.....944456.666**************************...*****************************************************************.
+GLB5_PETMA/11-129         -LSAAEKTKIRSAWAPVYSTYETSGVDILVKFFTSTPAAQEFFPKFKGLTTADQL------KKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------
+#=GR GLB5_PETMA/11-129 PP .89*******************************************999999999......**************************999**********************************98..............................
+#=GC PP_cons              799*******************************************......888......**************************...***********************************9*****************************7
+#=GC RF                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx......xxx......xxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID HBA_MACSI-i2
+
+#=GS HBA_HUMAN/1-141   DE [subseq from] HBA_HUMAN
+#=GS MYG_PHYCA/1-146   DE [subseq from] MYG_PHYCA
+#=GS HBB_HUMAN/3-145   DE [subseq from] HBB_HUMAN
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+HBA_MACSI                 VLSPADKTNVKDAWGKVGGHAGEYGAEALERMFLSFPTTKTYFPHF------DLS------HGSAQVKGHGKKVADALTLAVGHVDD---MPQALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR
+HBA_HUMAN/1-141           VLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF------DLS------HGSAQVKGHGKKVADALTNAVAHVDD---MPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR
+#=GR HBA_HUMAN/1-141   PP 79********************************************......***......**************************...*****************************************************************7
+MYG_PHYCA/1-146           VLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRF------KHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGH---HEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKY-
+#=GR MYG_PHYCA/1-146   PP 79********************************************......999999999**************************...*****************************************************************.
+HBB_HUMAN/3-145           -LTPEEKSAVTALWGKVN--VDEVGGEALGRLLVVYPWTQRFFESF-----GDLSTP-DAVMGNPKVKAHGKKVLGAFSDGLAHLDN---LKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY-
+#=GR HBB_HUMAN/3-145   PP .89***************..**************************.....944455.666**************************...*****************************************************************.
+GLB5_PETMA/11-129         -LSAAEKTKIRSAWAPVYSTYETSGVDILVKFFTSTPAAQEFFPKFKGLTTADQL------KKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------
+#=GR GLB5_PETMA/11-129 PP .89*******************************************999999999......**************************999**********************************98..............................
+#=GC PP_cons              799*******************************************......888......**************************...***********************************9*****************************7
+#=GC RF                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx......xxx......xxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID HBA_PONPY-i2
+
+#=GS HBA_HUMAN/1-141   DE [subseq from] HBA_HUMAN
+#=GS MYG_PHYCA/1-146   DE [subseq from] MYG_PHYCA
+#=GS HBB_HUMAN/3-145   DE [subseq from] HBB_HUMAN
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+HBA_PONPY                 VLSPADKTNVKTAWGKVGAHAGDYGAEALERMFLSFPTTKTYFPHF------DLS------HGSAQVKDHGKKVADALTNAVAHVDDMPN---ALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR
+HBA_HUMAN/1-141           VLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF------DLS------HGSAQVKGHGKKVADALTNAVAHVDDMPN---ALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR
+#=GR HBA_HUMAN/1-141   PP 79********************************************......***......*****************************...**************************************************************7
+MYG_PHYCA/1-146           VLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRF------KHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEA---ELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKY-
+#=GR MYG_PHYCA/1-146   PP 79********************************************......999999999*****************************...**************************************************************.
+HBB_HUMAN/3-145           -LTPEEKSAVTALWGKVN--VDEVGGEALGRLLVVYPWTQRFFESF-----GDLSTP-DAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKG---TFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY-
+#=GR HBB_HUMAN/3-145   PP .89***************..**************************.....944455.666*****************************...**************************************************************.
+GLB5_PETMA/11-129         -LSAAEKTKIRSAWAPVYSTYETSGVDILVKFFTSTPAAQEFFPKFKGLTTADQL------KKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------
+#=GR GLB5_PETMA/11-129 PP .89*******************************************999999999......****************************9999*******************************98..............................
+#=GC PP_cons              799*******************************************......888......*****************************...********************************9*****************************7
+#=GC RF                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx......xxx......xxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID HBA2_GALCR-i2
+
+#=GS HBA_HUMAN/1-141   DE [subseq from] HBA_HUMAN
+#=GS HBB_HUMAN/3-145   DE [subseq from] HBB_HUMAN
+#=GS MYG_PHYCA/1-146   DE [subseq from] MYG_PHYCA
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+HBA2_GALCR                VLSPTDKSNVKAAWEKVGAHAGDYGAEALERMFLSFPTTKTYFPHF------D---L---SHGSTQVKGHGKKVADALTNAVLHVDD---MPSALSALSDLHAHKLRVDPVNFKLLRHCLLVTLACHHPAEFTPAVHASLDKFMASVSTVLTSKYR
+HBA_HUMAN/1-141           VLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF------D---L---SHGSAQVKGHGKKVADALTNAVAHVDD---MPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR
+#=GR HBA_HUMAN/1-141   PP 79********************************************......*...*...***************************...*****************************************************************7
+HBB_HUMAN/3-145           -LTPEEKSAVTALWGKVN--VDEVGGEALGRLLVVYPWTQRFFESFGDLSTPD---A---VMGNPKVKAHGKKVLGAFSDGLAHLDN---LKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY-
+#=GR HBB_HUMAN/3-145   PP .89***************..**************************9666655...6...8**************************...*****************************************************************.
+MYG_PHYCA/1-146           VLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRF------KHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGH---HEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKY-
+#=GR MYG_PHYCA/1-146   PP 6899999***************************************......633314458**************************...*****************************************************************.
+GLB5_PETMA/11-129         -LSAAEKTKIRSAWAPVYSTYETSGVDILVKFFTSTPAAQEFFPKFKGLTTAD---Q---LKKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------
+#=GR GLB5_PETMA/11-129 PP .89*******************************************8887777...9...9**************************999**********************************98..............................
+#=GC PP_cons              689*******************************************......7...6...9**************************...***********************************9*****************************7
+#=GC RF                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx......x...x...xxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID HBA_MESAU-i2
+
+#=GS HBA_HUMAN/1-141   DE [subseq from] HBA_HUMAN
+#=GS HBB_HUMAN/3-145   DE [subseq from] HBB_HUMAN
+#=GS MYG_PHYCA/1-146   DE [subseq from] MYG_PHYCA
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+HBA_MESAU                 VLSAKDKTNISEAWGKIGGHAGEYGAEALERMFFVYPTTKTYFPHF------DVS------HGSAQVKGHGKKVADALTNAVGHLDDLPGA---LSALSDLHAHKLRVDPVNFKLLSHCLLVTLANHHPADFTPAVHASLDKFFASVSTVLTSKYR
+HBA_HUMAN/1-141           VLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF------DLS------HGSAQVKGHGKKVADALTNAVAHVDDMPNA---LSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR
+#=GR HBA_HUMAN/1-141   PP 79********************************************......***......******************************...*************************************************************7
+HBB_HUMAN/3-145           -LTPEEKSAVTALWGKVN--VDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAV------MGNPKVKAHGKKVLGAFSDGLAHLDNLKGT---FATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY-
+#=GR HBB_HUMAN/3-145   PP .89***************..***************************99999999......******************************...*************************************************************.
+MYG_PHYCA/1-146           VLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRF------KHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAE---LKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKY-
+#=GR MYG_PHYCA/1-146   PP 678889999*************************************......9888888889*****************************...*************************************************************.
+GLB5_PETMA/11-129         -LSAAEKTKIRSAWAPVYSTYETSGVDILVKFFTSTPAAQEFFPKFKGLTTADQL------KKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------
+#=GR GLB5_PETMA/11-129 PP .89********************************************9999999*......*****************************9999******************************95..............................
+#=GC PP_cons              68999*****************************************......999......******************************...*******************************9*****************************7
+#=GC RF                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx......xxx......xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID HBA2_BOSMU-i2
+
+#=GS HBA_HUMAN/1-141   DE [subseq from] HBA_HUMAN
+#=GS HBB_HUMAN/3-145   DE [subseq from] HBB_HUMAN
+#=GS MYG_PHYCA/1-146   DE [subseq from] MYG_PHYCA
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+HBA2_BOSMU                VLSAADKGNVKAAWGKVGGHAAEYGAEALERMFLSFPTTKTYFPHF------DLS------HGSAQVKGHGAKVAAALTKAVGHLDDLPG---ALSELSDLHAHKLRVDPVNFKLLSHSLLVTLASHLPSDFTPAVHASLDKFLANVSTVLTSKYR
+HBA_HUMAN/1-141           VLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF------DLS------HGSAQVKGHGKKVADALTNAVAHVDDMPN---ALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR
+#=GR HBA_HUMAN/1-141   PP 79********************************************......***......*****************************...**************************************************************7
+HBB_HUMAN/3-145           -LTPEEKSAVTALWGKVN--VDEVGGEALGRLLVVYPWTQRFFESF-----GDLSTP-DAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKG---TFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY-
+#=GR HBB_HUMAN/3-145   PP .789**************..**************************.....944455.556*****************************...**************************************************************.
+MYG_PHYCA/1-146           VLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRF------KHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEA---ELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKY-
+#=GR MYG_PHYCA/1-146   PP 689999****************************************......999999999*****************************...**************************************************************.
+GLB5_PETMA/11-129         -LSAAEKTKIRSAWAPVYSTYETSGVDILVKFFTSTPAAQEFFPKFKGLTTADQL------KKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------
+#=GR GLB5_PETMA/11-129 PP .89*******************************************999999999......****************************9999*******************************95..............................
+#=GC PP_cons              6899******************************************......888......*****************************...********************************9*****************************7
+#=GC RF                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx......xxx......xxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID HBA_ERIEU-i2
+
+#=GS HBA_HUMAN/1-141   DE [subseq from] HBA_HUMAN
+#=GS HBB_HUMAN/3-145   DE [subseq from] HBB_HUMAN
+#=GS MYG_PHYCA/1-146   DE [subseq from] MYG_PHYCA
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+HBA_ERIEU                 VLSATDKANVKTFWGKLGGHGGEYGGEALDRMFQAHPTTKTYFPHF------DLN------PGSAQVKGHGKKVADALTTAVNNLDDVPGA---LSALSDLHAHKLRVDPVNFKLLSHCLLVTLALHHPADFTPAVHASLDKFLATVATVLTSKYR
+HBA_HUMAN/1-141           VLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF------DLS------HGSAQVKGHGKKVADALTNAVAHVDDMPNA---LSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR
+#=GR HBA_HUMAN/1-141   PP 79********************************************......***......******************************...*************************************************************7
+HBB_HUMAN/3-145           -LTPEEKSAVTALWGKVN--VDEVGGEALGRLLVVYPWTQRFFESF-----GDLSTP-DAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGT---FATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY-
+#=GR HBB_HUMAN/3-145   PP .789**************..**************************.....955554.4337*****************************...*************************************************************.
+MYG_PHYCA/1-146           VLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRF------KHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAE---LKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKY-
+#=GR MYG_PHYCA/1-146   PP 678888899*************************************......9996777777*****************************...*************************************************************.
+GLB5_PETMA/11-129         -LSAAEKTKIRSAWAPVYSTYETSGVDILVKFFTSTPAAQEFFPKFKGLTTADQL------KKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------
+#=GR GLB5_PETMA/11-129 PP .89*******************************************999999999......*****************************9999******************************98..............................
+#=GC PP_cons              6899999***************************************......888......9*****************************...*******************************9*****************************7
+#=GC RF                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx......xxx......xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID HBA_FRAPO-i2
+
+#=GS HBA_HUMAN/1-141   DE [subseq from] HBA_HUMAN
+#=GS MYG_PHYCA/1-147   DE [subseq from] MYG_PHYCA
+#=GS HBB_HUMAN/3-145   DE [subseq from] HBB_HUMAN
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+HBA_FRAPO                 VLSAADKNNVKGIFGKISSHAEDYGAEALERMFITYPSTKTYFPHF------DLS------HGSAQVKGHGKKVVAALIEAANHIDDIAGTLSKLSDL---HAHKLRVDPVNFKLLGQCFLVVVAIHHPSALTPEVHASLDKFLCAVGNVLTAKYR
+HBA_HUMAN/1-141           VLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF------DLS------HGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDL---HAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR
+#=GR HBA_HUMAN/1-141   PP 79********************************************......***......*************************************...******************************************************7
+MYG_PHYCA/1-147           VLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRF------KHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQS---HATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKYK
+#=GR MYG_PHYCA/1-147   PP 79********************************************......999999999*************************************...******************************************************7
+HBB_HUMAN/3-145           -LTPEEKSAVTALWGKVN--VDEVGGEALGRLLVVYPWTQRFFESF-----GDLSTP-DAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSEL---HCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY-
+#=GR HBB_HUMAN/3-145   PP .789**************..**************************.....955566.666*************************************...******************************************************.
+GLB5_PETMA/11-129         -LSAAEKTKIRSAWAPVYSTYETSGVDILVKFFTSTPAAQEFFPKFKGLTTADQL------KKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------
+#=GR GLB5_PETMA/11-129 PP .8********************************************999999999......***************************************************************86..............................
+#=GC PP_cons              789*******************************************......888......*************************************...***********************99*****************************7
+#=GC RF                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx......xxx......xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID HBA_PHACO-i2
+
+#=GS HBA_HUMAN/1-141   DE [subseq from] HBA_HUMAN
+#=GS MYG_PHYCA/1-147   DE [subseq from] MYG_PHYCA
+#=GS HBB_HUMAN/3-145   DE [subseq from] HBB_HUMAN
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+HBA_PHACO                 VLSAADKNNVKGIFTKIAGHAEEYGAEALERMFITYPSTKTYFPHF------DLS------HGSAQIKGHGKKVVAALIEAVNHIDDITGTLSKLSDL---HAHKLRVDPVNFKLLGQCFLVVVAIHHPSALTPEVHASLDKFLCAVGTVLTAKYR
+HBA_HUMAN/1-141           VLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF------DLS------HGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDL---HAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR
+#=GR HBA_HUMAN/1-141   PP 79********************************************......***......*************************************...******************************************************7
+MYG_PHYCA/1-147           VLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRF------KHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQS---HATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKYK
+#=GR MYG_PHYCA/1-147   PP 79********************************************......999999999*************************************...******************************************************7
+HBB_HUMAN/3-145           -LTPEEKSAVTALWGKV--NVDEVGGEALGRLLVVYPWTQRFFESF-----GDLSTP-DAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSEL---HCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY-
+#=GR HBB_HUMAN/3-145   PP .56789***********..***************************.....955566.666*************************************...******************************************************.
+GLB5_PETMA/11-129         -LSAAEKTKIRSAWAPVYSTYETSGVDILVKFFTSTPAAQEFFPKFKGLTTADQL------KKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------
+#=GR GLB5_PETMA/11-129 PP .8********************************************999999999......***************************************************************86..............................
+#=GC PP_cons              78999*****************************************......888......*************************************...***********************99*****************************7
+#=GC RF                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx......xxx......xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID HBA_TRIOC-i2
+
+#=GS HBA_HUMAN/1-141   DE [subseq from] HBA_HUMAN
+#=GS MYG_PHYCA/1-147   DE [subseq from] MYG_PHYCA
+#=GS HBB_HUMAN/3-145   DE [subseq from] HBB_HUMAN
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+HBA_TRIOC                 VLSANDKTNVKTVFTKITGHAEDYGAETLERMFITYPPTKTYFPHF------DLH------HGSAQIKAHGKKVVGALIEAVNHIDDIAGALSKLSDL---HAQKLRVDPVNFKLLGQCFLVVVAIHHPSVLTPEVHASLDKFLCAVGNVLSAKYR
+HBA_HUMAN/1-141           VLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF------DLS------HGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDL---HAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR
+#=GR HBA_HUMAN/1-141   PP 79********************************************......***......*************************************...******************************************************7
+MYG_PHYCA/1-147           VLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRF------KHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQS---HATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKYK
+#=GR MYG_PHYCA/1-147   PP 79********************************************......8888888889************************************...******************************************************7
+HBB_HUMAN/3-145           -LTPEEKSAVTALWGKV--NVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAV------MGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSEL---HCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY-
+#=GR HBB_HUMAN/3-145   PP .6789************..****************************99999999......*************************************...******************************************************.
+GLB5_PETMA/11-129         -LSAAEKTKIRSAWAPVYSTYETSGVDILVKFFTSTPAAQEFFPKFKGLTTADQL------KKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------
+#=GR GLB5_PETMA/11-129 PP .89***********************************************999**......***************************************************************86..............................
+#=GC PP_cons              7899******************************************......999......*************************************...***********************99*****************************7
+#=GC RF                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx......xxx......xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID HBA_ANSSE-i2
+
+#=GS HBA_HUMAN/1-141   DE [subseq from] HBA_HUMAN
+#=GS HBB_HUMAN/3-145   DE [subseq from] HBB_HUMAN
+#=GS MYG_PHYCA/1-147   DE [subseq from] MYG_PHYCA
+#=GS GLB5_PETMA/11-128 DE [subseq from] GLB5_PETMA
+
+HBA_ANSSE                 VLSAADKGNVKTVFGKIGGHAEEYGAETLQRMFQTFPQTKTYFPHF------DL---Q---P----GSAQIKAHGKKVAAALVEAANHIDDIAGALSKLSDL---HAQKLRVDPVNFKFLGHCFLVVLAIHHPSLLTPEVHASMDKFLCAVATVLTAKYR
+HBA_HUMAN/1-141           VLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF------DL---S---H----GSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDL---HAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR
+#=GR HBA_HUMAN/1-141   PP 79********************************************......**...*...*....************************************...******************************************************7
+HBB_HUMAN/3-145           -LTPEEKSAVTALWGKV--NVDEVGGEALGRLLVVYPWTQRFFESF-----GDL---S--TPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSEL---HCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY-
+#=GR HBB_HUMAN/3-145   PP .789*************..***************************.....966...5..313444************************************...******************************************************.
+MYG_PHYCA/1-147           VLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRF------KHLKTEAEMK----ASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQS---HATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKYK
+#=GR MYG_PHYCA/1-147   PP 68899999**************************************......8844414457....************************************...******************************************************7
+GLB5_PETMA/11-128         -LSAAEKTKIRSAWAPVYSTYETSGVDILVKFFTSTPAAQEFFPKFKGLTTADQ---L---K----KSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVA-------------------------------
+#=GR GLB5_PETMA/11-128 PP .8********************************************99999888...9...*....*********************************************************977665...............................
+#=GC PP_cons              6899******************************************......88...6...7....************************************...*******************99999******************************7
+#=GC RF                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx......xx...x...x....xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID HBA_COLLI-i2
+
+#=GS HBA_HUMAN/1-141   DE [subseq from] HBA_HUMAN
+#=GS HBB_HUMAN/3-145   DE [subseq from] HBB_HUMAN
+#=GS MYG_PHYCA/1-146   DE [subseq from] MYG_PHYCA
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+HBA_COLLI                 VLSANDKSNVKAVFAKIGGQAGDLGGEALERLFITYPQTKTYFPHF------DLS------HGSAQIKGHGKKVAEALVEAANHIDDIAGALSKLSDL---HAQKLRVDPVNFKLLGHCFLVVVAVHFPSLLTPEVHASLDKFVLAVGTVLTAKYR
+HBA_HUMAN/1-141           VLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF------DLS------HGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDL---HAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR
+#=GR HBA_HUMAN/1-141   PP 79********************************************......***......*************************************...******************************************************7
+HBB_HUMAN/3-145           -LTPEEKSAVTALWGKVN--VDEVGGEALGRLLVVYPWTQRFFESF-----GDLSTP-DAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSEL---HCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY-
+#=GR HBB_HUMAN/3-145   PP .89***************..**************************.....955566.666*************************************...******************************************************.
+MYG_PHYCA/1-146           VLSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRF------KHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQS---HATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKY-
+#=GR MYG_PHYCA/1-146   PP 79********************************************......999999999*************************************...******************************************************.
+GLB5_PETMA/11-129         -LSAAEKTKIRSAWAPVYSTYETSGVDILVKFFTSTPAAQEFFPKFKGLTTADQL------KKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------
+#=GR GLB5_PETMA/11-129 PP .89*******************************************999999999......***************************************************************86..............................
+#=GC PP_cons              799*******************************************......888......*************************************...***********************99*****************************7
+#=GC RF                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx......xxx......xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID HBAD_CHLME-i2
+
+#=GS HBA_HUMAN/2-141   DE [subseq from] HBA_HUMAN
+#=GS HBB_HUMAN/3-145   DE [subseq from] HBB_HUMAN
+#=GS MYG_PHYCA/2-147   DE [subseq from] MYG_PHYCA
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+HBAD_CHLME                MLTADDKKLLTQLWEKVAGHQEEFGSEALQRMFLTYPQTKTYFPHF------DLH---PGSEQVRGHGKKVAAALGNAVKSLDN---LSQALSELSNLHAYNLRVDPANFKLLAQCFQVVLATHLGKDYSPEMHAAFDKFLSAVAAVLAEKYR
+HBA_HUMAN/2-141           -LSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF------DLS---HGSAQVKGHGKKVADALTNAVAHVDD---MPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR
+#=GR HBA_HUMAN/2-141   PP .89*******************************************......***...**************************...*****************************************************************7
+HBB_HUMAN/3-145           -LTPEEKSAVTALWGKV--NVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAV---MGNPKVKAHGKKVLGAFSDGLAHLDN---LKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY-
+#=GR HBB_HUMAN/3-145   PP .89**************..****************************99999999...**************************...*****************************************************************.
+MYG_PHYCA/2-147           -LSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKH--LKT-EAEMKASEDLKKHGVTVLTALGAILKKKGH---HEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKYK
+#=GR MYG_PHYCA/2-147   PP .8999*****************************************55..430.24459*************************...*****************************************************************7
+GLB5_PETMA/11-129         -LSAAEKTKIRSAWAPVYSTYETSGVDILVKFFTSTPAAQEFFPKFKGLTTADQL---KKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------
+#=GR GLB5_PETMA/11-129 PP .89*******************************************888888899...**************************999*********************************975..............................
+#=GC PP_cons              .89*******************************************......798...**************************...**********************************99*****************************7
+#=GC RF                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx......xxx...xxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID HBAD_PASMO-i2
+
+#=GS HBA_HUMAN/2-141   DE [subseq from] HBA_HUMAN
+#=GS HBB_HUMAN/3-145   DE [subseq from] HBB_HUMAN
+#=GS MYG_PHYCA/2-147   DE [subseq from] MYG_PHYCA
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+HBAD_PASMO                MLTAEDKKLIQQIWGKLGGAEEEIGADALWRMFHSYPSTKTYFPHF------D---L---SQGSDQIRGHGKKVVAALSNAIKNLDN---LSQALSELSNLHAYNLRVDPVNFKFLSQCLQVSLATRLGKEYSPEVHSAVDKFMSAVASVLAEKYR
+HBA_HUMAN/2-141           -LSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF------D---L---SHGSAQVKGHGKKVADALTNAVAHVDD---MPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR
+#=GR HBA_HUMAN/2-141   PP .9********************************************......*...*...***************************...*****************************************************************7
+HBB_HUMAN/3-145           -LTPEEKSAVTALWGKVN--VDEVGGEALGRLLVVYPWTQRFFESFGDLSTPD---A---VMGNPKVKAHGKKVLGAFSDGLAHLDN---LKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY-
+#=GR HBB_HUMAN/3-145   PP .89***************..**************************9666666...6...8**************************...*****************************************************************.
+MYG_PHYCA/2-147           -LSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRF------KHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGH---HEAELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKYK
+#=GR MYG_PHYCA/2-147   PP .7899*****************************************......633314458**************************...*****************************************************************7
+GLB5_PETMA/11-129         -LSAAEKTKIRSAWAPVYSTYETSGVDILVKFFTSTPAAQEFFPKFKGLTTAD---Q---LKKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------
+#=GR GLB5_PETMA/11-129 PP .89*******************************************8888777...9...9**************************999*********************************975..............................
+#=GC PP_cons              .89*******************************************......7...6...9**************************...**********************************99*****************************7
+#=GC RF                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx......x...x...xxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID HBAZ_HORSE-i2
+
+#=GS HBA_HUMAN/2-141   DE [subseq from] HBA_HUMAN
+#=GS MYG_PHYCA/2-147   DE [subseq from] MYG_PHYCA
+#=GS HBB_HUMAN/3-145   DE [subseq from] HBB_HUMAN
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+HBAZ_HORSE                SLTKAERTMVVSIWGKISMQADAVGTEALQRLFSSYPQTKTYFPHF------DLH---EGSPQLRAHGSKVAAAVGDAVKSIDNVAGA---LAKLSELHAYILRVDPVNFKFLSHCLLVTLASRLPADFTADAHAAWDKFLSIVSSVLTEKYR
+HBA_HUMAN/2-141           -LSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF------DLS---HGSAQVKGHGKKVADALTNAVAHVDDMPNA---LSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR
+#=GR HBA_HUMAN/2-141   PP .8********************************************......***...******************************...*************************************************************7
+MYG_PHYCA/2-147           -LSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKH--LKT-EAEMKASEDLKKHGVTVLTALGAILKKKGHHEAE---LKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKYK
+#=GR MYG_PHYCA/2-147   PP .89*******************************************55..530.24459*****************************...*************************************************************7
+HBB_HUMAN/3-145           -LTPEEKSAVTALWGKVN--VDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAV---MGNPKVKAHGKKVLGAFSDGLAHLDNLKGT---FATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY-
+#=GR HBB_HUMAN/3-145   PP .89***************..***************************99999999...******************************...*************************************************************.
+GLB5_PETMA/11-129         -LSAAEKTKIRSAWAPVYSTYETSGVDILVKFFTSTPAAQEFFPKFKGLTTADQL---KKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------
+#=GR GLB5_PETMA/11-129 PP .89*******************************************888888899...*****************************9999******************************98..............................
+#=GC PP_cons              .89*******************************************......798...******************************...*******************************9*****************************7
+#=GC RF                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx......xxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID HBA4_SALIR-i2
+
+#=GS HBA_HUMAN/2-141   DE [subseq from] HBA_HUMAN
+#=GS HBB_HUMAN/3-145   DE [subseq from] HBB_HUMAN
+#=GS MYG_PHYCA/2-147   DE [subseq from] MYG_PHYCA
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+HBA4_SALIR                SLSAKDKANVKAIWGKILPKSDEIGEQALSRMLVVYPQTKAY---FSHWASVA-----PGSAPVKKHGITIMNQIDDCVGHMDDLFGFLTKLSEL---HATKLRVDPTNFKILAHNLIVVIAAYFPAEFTPEIHLSVDKFLQQLALALAEKYR
+HBA_HUMAN/2-141           -LSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTY---FPHF-DLS-----HGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDL---HAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR
+#=GR HBA_HUMAN/2-141   PP .8****************************************...****.***.....*************************************...******************************************************7
+HBB_HUMAN/3-145           -LTPEEKSAVTALWGKV--NVDEVGGEALGRLLVVYPWTQRF---FESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSEL---HCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY-
+#=GR HBB_HUMAN/3-145   PP .89**************..***********************...********866555************************************...******************************************************.
+MYG_PHYCA/2-147           -LSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAE---MKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQS---HATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKYK
+#=GR MYG_PHYCA/2-147   PP .566677789*******************************9555566666669...99************************************...******************************************************7
+GLB5_PETMA/11-129         -LSAAEKTKIRSAWAPVYSTYETSGVDILVKFFTSTPAAQEF---FPKFKGLTTADQLKKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------
+#=GR GLB5_PETMA/11-129 PP .8****************************************...*******9999988**************************************************************98..............................
+#=GC PP_cons              .79999999*********************************...99999999.....8************************************...************************9*****************************7
+#=GC RF                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxx.....xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID HBB_ORNAN-i2
+
+#=GS HBB_HUMAN/1-146   DE [subseq from] HBB_HUMAN
+#=GS HBA_HUMAN/2-140   DE [subseq from] HBA_HUMAN
+#=GS MYG_PHYCA/2-146   DE [subseq from] MYG_PHYCA
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+HBB_ORNAN                 VHLSGGEKSAVTNLWGKVN--INE-LG--GEALGRLLVVYPWTQRFFEAFGDLSSAGAVMGNPKVKAHGAKVLTSFGDALKNLDDLKGTFAKLSEL---HCDKLHVDPENFNRLGNVLIVVLARHFSKDFSPEVQAAWQKLVSGVAHALGHKYH
+HBB_HUMAN/1-146           VHLTPEEKSAVTALWGKVN--VDE-VG--GEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSEL---HCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH
+#=GR HBB_HUMAN/1-146   PP 7******************..***.**..*******************************************************************...******************************************************9
+HBA_HUMAN/2-140           --LSPADKTNVKAAWGKVGAHAGE-YG--AEALERMFLSFPTTKTYFPHF-DLSH-----GSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDL---HAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY-
+#=GR HBA_HUMAN/2-140   PP ..9***************988899.**..*********************.****.....************************************...******************************************************.
+MYG_PHYCA/2-146           --LSEGEWQLVLHVWAKVE--ADV-AGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQS---HATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKY-
+#=GR MYG_PHYCA/2-146   PP ..9****************..999.7666*******************************************************************...********************************************9999999999.
+GLB5_PETMA/11-129         --LSAAEKTKIRSAWAPVY-STYETSG--VDILVKFFTSTPAAQEFFPKFKGLTTADQLKKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------
+#=GR GLB5_PETMA/11-129 PP ..9****************.988889*..*******************************************************************************************9875..............................
+#=GC PP_cons              7*9****************..999.99..*******************************************************************...**********************999*****************************9
+#=GC RF                   xxxxxxxxxxxxxxxxxxx..xxx.xx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID HBB_TACAC-i2
+
+#=GS HBB_HUMAN/1-146   DE [subseq from] HBB_HUMAN
+#=GS MYG_PHYCA/2-146   DE [subseq from] MYG_PHYCA
+#=GS HBA_HUMAN/2-140   DE [subseq from] HBA_HUMAN
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+HBB_TACAC                 VHLSGSEKTAVTNLWGHV-N--VNEL-G--GEALGRLLVVYPWTQRFFESFGDLSSADAVMGNAKVKAHGAKVLTSFGDALKNLDNLKGTFAKLSEL---HCDKLHVDPENFNRLGNVLVVVLARHFSKEFTPEAQAAWQKLVSGVSHALAHKYH
+HBB_HUMAN/1-146           VHLTPEEKSAVTALWGKV-N--VDEV-G--GEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSEL---HCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH
+#=GR HBB_HUMAN/1-146   PP 7*****************.*..****.*..*******************************************************************...******************************************************8
+MYG_PHYCA/2-146           --LSEGEWQLVLHVWAKV-E--ADVA-GHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQS---HATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKY-
+#=GR MYG_PHYCA/2-146   PP ..8***************.*..***9.555*******************************************************************...******************************************************.
+HBA_HUMAN/2-140           --LSPADKTNVKAAWGKV-GAHAGEY-G--AEALERMFLSFPTTKTYFPHF-DLS-----HGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDL---HAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY-
+#=GR HBA_HUMAN/2-140   PP ..8***************.54599**.*..*********************.***.....*************************************...******************************************************.
+GLB5_PETMA/11-129         --LSAAEKTKIRSAWAPVYS--TYETSG--VDILVKFFTSTPAAQEFFPKFKGLTTADQLKKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------
+#=GR GLB5_PETMA/11-129 PP ..8***************98..***99*..********************************************************************************************975..............................
+#=GC PP_cons              7*9***************.8..***9.9..*******************************************************************...***********************99*****************************8
+#=GC RF                   xxxxxxxxxxxxxxxxxx.x..xxxx.x..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID HBE_PONPY-i2
+
+#=GS HBB_HUMAN/1-146   DE [subseq from] HBB_HUMAN
+#=GS HBA_HUMAN/2-140   DE [subseq from] HBA_HUMAN
+#=GS MYG_PHYCA/4-146   DE [subseq from] MYG_PHYCA
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+HBE_PONPY                 VHFTAEEKAAVTSLWSKM--NVE--EAG--GEALGRLLVVYPWTQRFFDSFGNLSSPSAILGNPKVKAHGKKVLTSFGDAIKNMDNLKTTFAKLSEL---HCDKLHVDPENFKLLGNVMVIILATHFGKEFTPEVQAAWQKLVSAVAIALAHKYH
+HBB_HUMAN/1-146           VHLTPEEKSAVTALWGKV--NVD--EVG--GEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSEL---HCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH
+#=GR HBB_HUMAN/1-146   PP 7*****************..***..***..*******************************************************************...******************************************************8
+HBA_HUMAN/2-140           --LSPADKTNVKAAWGKV--GAHAGEYG--AEALERMFLSFPTTKTYFPHF-DLSH-----GSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDL---HAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY-
+#=GR HBA_HUMAN/2-140   PP ..789*************..88888***..*********************.****.....************************************...******************************************************.
+MYG_PHYCA/4-146           ----EGEWQLVLHVWAKV--EAD--VAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQS---HATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKY-
+#=GR MYG_PHYCA/4-146   PP ....567789********..***..99888*******************************************************************...******************************************************.
+GLB5_PETMA/11-129         --LSAAEKTKIRSAWAPVYSTYE--TSG--VDILVKFFTSTPAAQEFFPKFKGLTTADQLKKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------
+#=GR GLB5_PETMA/11-129 PP ..79**************999**..***..*********************************************************************************************94..............................
+#=GC PP_cons              7*8999999*********..999..**9..*******************************************************************...************************9*****************************8
+#=GC RF                   xxxxxxxxxxxxxxxxxx..xxx..xxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID HBB_SPECI-i2
+
+#=GS HBB_HUMAN/1-146   DE [subseq from] HBB_HUMAN
+#=GS MYG_PHYCA/2-146   DE [subseq from] MYG_PHYCA
+#=GS HBA_HUMAN/2-140   DE [subseq from] HBA_HUMAN
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+HBB_SPECI                 VHLSDGEKNAISTAWGKV--HA--A--EVGAEALGRLLVVYPWTQRFFDSFGDLSSASAVMGNAKVKAHGKKVIDSFSNGLKHLDNLKGT---FASLSELHCDKLHVDPENFKLLGNMIVIVMAHHLGKDFTPEAQAAFQKVVAGVANALAHKYH
+HBB_HUMAN/1-146           VHLTPEEKSAVTALWGKV--NV--D--EVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGT---FATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH
+#=GR HBB_HUMAN/1-146   PP 7*****************..**..*..***************************************************************...*************************************************************8
+MYG_PHYCA/2-146           --LSEGEWQLVLHVWAKV--EADVA--GHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAE---LKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKY-
+#=GR MYG_PHYCA/2-146   PP ..9***************..99556..***************************************************************...*************************************************************.
+HBA_HUMAN/2-140           --LSPADKTNVKAAWGKVGAHA--G--EYGAEALERMFLSFPTTKTYFPHF-DLSH-----GSAQVKGHGKKVADALTNAVAHVDDMPNA---LSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY-
+#=GR HBA_HUMAN/2-140   PP ..9***************7777..9..************************.****.....*****************************...*************************************************************.
+GLB5_PETMA/11-129         --LSAAEKTKIRSAWAPV--YS--TYETSGVDILVKFFTSTPAAQEFFPKFKGLTTADQLKKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------
+#=GR GLB5_PETMA/11-129 PP ..9***************..*9..6669*************************************************************9999*****************************976..............................
+#=GC PP_cons              7*9***************..99..8..***************************************************************...******************************99*****************************8
+#=GC RF                   xxxxxxxxxxxxxxxxxx..xx..x..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID HBB_SPETO-i2
+
+#=GS HBB_HUMAN/1-146   DE [subseq from] HBB_HUMAN
+#=GS MYG_PHYCA/2-146   DE [subseq from] MYG_PHYCA
+#=GS HBA_HUMAN/2-140   DE [subseq from] HBA_HUMAN
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+HBB_SPETO                 VHLTDGEKNAISTAWGKVNA--A--EIGAEALGRLLVVYPWTQRFFDSFGDLSSASAVMGNAKVKAHGKKVIDSFSNGLKHLDNLKGT---FASLSELHCDKLHVDPENFKLLGNMIVIVMAHHLGKDFTPEAQAAFQKVVAGVANALSHKYH
+HBB_HUMAN/1-146           VHLTPEEKSAVTALWGKVNV--D--EVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGT---FATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH
+#=GR HBB_HUMAN/1-146   PP 7*******************..*..***************************************************************...*************************************************************9
+MYG_PHYCA/2-146           --LSEGEWQLVLHVWAKVEADVA--GHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAE---LKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKY-
+#=GR MYG_PHYCA/2-146   PP ..8****************8556..***************************************************************...************************************************************9.
+HBA_HUMAN/2-140           --LSPADKTNVKAAWGKVGAHAG--EYGAEALERMFLSFPTTKTYFPHF-DLSH-----GSAQVKGHGKKVADALTNAVAHVDDMPNA---LSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY-
+#=GR HBA_HUMAN/2-140   PP ..8****************7436..************************.****.....*****************************...************************************************************9.
+GLB5_PETMA/11-129         --LSAAEKTKIRSAWAPVYS--TYETSGVDILVKFFTSTPAAQEFFPKFKGLTTADQLKKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------
+#=GR GLB5_PETMA/11-129 PP ..89***************9..6559*************************************************************9999*****************************976..............................
+#=GC PP_cons              7*9****************9..7..***************************************************************...******************************99****************************99
+#=GC RF                   xxxxxxxxxxxxxxxxxxxx..x..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID HBB_EQUHE-i2
+
+#=GS HBB_HUMAN/1-146   DE [subseq from] HBB_HUMAN
+#=GS MYG_PHYCA/2-146   DE [subseq from] MYG_PHYCA
+#=GS HBA_HUMAN/2-140   DE [subseq from] HBA_HUMAN
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+HBB_EQUHE                 VQLSGEEKAAVLALWDKVNE--E--EVG--GEALGRLLVVYPWTQRFFDSFGDLSNPAAVMGNPKVKAHGKKVLHSFGEGVHHLDNLKGT---FAQLSELHCDKLHVDPENFRLLGNVLVVVLARHFGKDFTPELQASYQKVVAGVANALAHKYH
+HBB_HUMAN/1-146           VHLTPEEKSAVTALWGKVNV--D--EVG--GEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGT---FATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH
+#=GR HBB_HUMAN/1-146   PP 79******************..*..***..************************************************************...*************************************************************8
+MYG_PHYCA/2-146           --LSEGEWQLVLHVWAKVEA--D--VAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAE---LKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKY-
+#=GR MYG_PHYCA/2-146   PP ..899***************..*..98877************************************************************...*************************************************************.
+HBA_HUMAN/2-140           --LSPADKTNVKAAWGKVGA--HAGEYG--AEALERMFLSFPTTKTYFPHF-DLSH-----GSAQVKGHGKKVADALTNAVAHVDDMPNA---LSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY-
+#=GR HBA_HUMAN/2-140   PP ..8*****************..878***..*********************.****.....*****************************...*************************************************************.
+GLB5_PETMA/11-129         --LSAAEKTKIRSAWAPVYSTYE--TSG--VDILVKFFTSTPAAQEFFPKFKGLTTADQLKKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------
+#=GR GLB5_PETMA/11-129 PP ..8****************9888..***..***********************************************************9999******************************95..............................
+#=GC PP_cons              799*****************..9..*99..************************************************************...*******************************9*****************************8
+#=GC RF                   xxxxxxxxxxxxxxxxxxxx..x..xxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID HBB_SUNMU-i2
+
+#=GS HBB_HUMAN/1-146   DE [subseq from] HBB_HUMAN
+#=GS MYG_PHYCA/2-146   DE [subseq from] MYG_PHYCA
+#=GS HBA_HUMAN/2-140   DE [subseq from] HBA_HUMAN
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+HBB_SUNMU                 VHLSGEEKACVTGLWGKVNE--DEVG--AEALGRLLVVYPWTQRFFDSFGDLSSASAVMGNPKVKAHGKKVLHSLGEGVANLDNLKGTFAKLSEL---HCDKLHVDPENFRLLGNVLVVVLASKFGKEFTPPVQAAFQKVVAGVANALAHKYH
+HBB_HUMAN/1-146           VHLTPEEKSAVTALWGKVNV--DEVG--GEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSEL---HCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH
+#=GR HBB_HUMAN/1-146   PP 7*******************..****..*******************************************************************...******************************************************8
+MYG_PHYCA/2-146           --LSEGEWQLVLHVWAKVEA--DVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQS---HATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKY-
+#=GR MYG_PHYCA/2-146   PP ..8999**************..**9888*******************************************************************...******************************************************.
+HBA_HUMAN/2-140           --LSPADKTNVKAAWGKVGAHAGEYG--AEALERMFLSFPTTKTYFPHF-DLSHGS-----AQVKGHGKKVADALTNAVAHVDDMPNALSALSDL---HAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY-
+#=GR HBA_HUMAN/2-140   PP ..8***************95559***..*********************.***998.....9*********************************...******************************************************.
+GLB5_PETMA/11-129         --LSAAEKTKIRSAWAPVYSTYETSG--VDILVKFFTSTPAAQEFFPKFKGLTTADQLKKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------
+#=GR GLB5_PETMA/11-129 PP ..8****************778****..*********************************************************************************************95..............................
+#=GC PP_cons              7*9****************8..***9..***************************9***************************************...************************9*****************************8
+#=GC RF                   xxxxxxxxxxxxxxxxxxxx..xxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID HBB_CALAR-i2
+
+#=GS HBB_HUMAN/1-146   DE [subseq from] HBB_HUMAN
+#=GS MYG_PHYCA/2-146   DE [subseq from] MYG_PHYCA
+#=GS HBA_HUMAN/2-140   DE [subseq from] HBA_HUMAN
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+HBB_CALAR                 VHLTGEEKSAVTALWGKV--NVDEVG--GEALGRLLVVYPWTQRFFESFGDLSTPDAVMNNPKVKAHGKKVLGAFSDGLTHLDNLKGT---FAHLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPVVQAAYQKVVAGVANALAHKYH
+HBB_HUMAN/1-146           VHLTPEEKSAVTALWGKV--NVDEVG--GEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGT---FATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH
+#=GR HBB_HUMAN/1-146   PP 7*****************..******..************************************************************...*************************************************************8
+MYG_PHYCA/2-146           --LSEGEWQLVLHVWAKV--EADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAE---LKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKY-
+#=GR MYG_PHYCA/2-146   PP ..6777899*********..****9888************************************************************...*************************************************************.
+HBA_HUMAN/2-140           --LSPADKTNVKAAWGKVGAHAGEYG--AEALERMFLSFPTTKTYFPHF-DLSHG-----SAQVKGHGKKVADALTNAVAHVDDMPNA---LSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY-
+#=GR HBA_HUMAN/2-140   PP ..89**************5559****..*********************.****9.....****************************...*************************************************************.
+GLB5_PETMA/11-129         --LSAAEKTKIRSAWAPVYSTYETSG--VDILVKFFTSTPAAQEFFPKFKGLTTADQLKKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------
+#=GR GLB5_PETMA/11-129 PP ..89**************888*****..***********************************************************9999******************************95..............................
+#=GC PP_cons              7*89999***********..8****9..************************************************************...*******************************9*****************************8
+#=GC RF                   xxxxxxxxxxxxxxxxxx..xxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID HBB_MANSP-i2
+
+#=GS HBB_HUMAN/1-146   DE [subseq from] HBB_HUMAN
+#=GS MYG_PHYCA/2-146   DE [subseq from] MYG_PHYCA
+#=GS HBA_HUMAN/2-140   DE [subseq from] HBA_HUMAN
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+HBB_MANSP                 VHLTPEEKTAVTTLWGKV--NVDEVG--GEALGRLLVVYPWTQRFFDSFGDLSSPDAVMGNPKVKAHGKKVLGAFSDGLNHLDNLKGT---FAQLSELHCDKLHVDPENFKLLGNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVANALAHKYH
+HBB_HUMAN/1-146           VHLTPEEKSAVTALWGKV--NVDEVG--GEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGT---FATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH
+#=GR HBB_HUMAN/1-146   PP 7*****************..******..************************************************************...*************************************************************8
+MYG_PHYCA/2-146           --LSEGEWQLVLHVWAKV--EADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAE---LKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKY-
+#=GR MYG_PHYCA/2-146   PP ..67778899********..****9888************************************************************...*************************************************************.
+HBA_HUMAN/2-140           --LSPADKTNVKAAWGKVGAHAGEYG--AEALERMFLSFPTTKTYFPHF-DLS-----HGSAQVKGHGKKVADALTNAVAHVDDMPNA---LSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY-
+#=GR HBA_HUMAN/2-140   PP ..8***************55599***..*********************.***.....******************************...*************************************************************.
+GLB5_PETMA/11-129         --LSAAEKTKIRSAWAPVYSTYETSG--VDILVKFFTSTPAAQEFFPKFKGLTTADQLKKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------
+#=GR GLB5_PETMA/11-129 PP ..89**************888*****..***********************************************************9999******************************95..............................
+#=GC PP_cons              7*899999**********..8****9..************************************************************...*******************************9*****************************8
+#=GC RF                   xxxxxxxxxxxxxxxxxx..xxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID HBB_URSMA-i2
+
+#=GS HBB_HUMAN/1-146   DE [subseq from] HBB_HUMAN
+#=GS MYG_PHYCA/2-146   DE [subseq from] MYG_PHYCA
+#=GS HBA_HUMAN/2-140   DE [subseq from] HBA_HUMAN
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+HBB_URSMA                 VHLTGEEKSLVTGLWGKV--NVDEVG--GEALGRLLVVYPWTQRFFDSFGDLSSADAIMNNPKVKAHGKKVLNSFSDGLKNLDNLKGTFAKLSEL---HCDKLHVDPENFKLLGNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVANALAHKYH
+HBB_HUMAN/1-146           VHLTPEEKSAVTALWGKV--NVDEVG--GEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSEL---HCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH
+#=GR HBB_HUMAN/1-146   PP 7*****************..******..*******************************************************************...******************************************************8
+MYG_PHYCA/2-146           --LSEGEWQLVLHVWAKV--EADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQS---HATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKY-
+#=GR MYG_PHYCA/2-146   PP ..7889************..****9888*******************************************************************...******************************************************.
+HBA_HUMAN/2-140           --LSPADKTNVKAAWGKVGAHAGEYG--AEALERMFLSFPTTKTYFPHF-DLSHGSA-----QVKGHGKKVADALTNAVAHVDDMPNALSALSDL---HAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY-
+#=GR HBA_HUMAN/2-140   PP ..899*************5559****..*********************.****998.....*********************************...******************************************************.
+GLB5_PETMA/11-129         --LSAAEKTKIRSAWAPVYSTYETSG--VDILVKFFTSTPAAQEFFPKFKGLTTADQLKKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------
+#=GR GLB5_PETMA/11-129 PP ..89**************888*****..*********************************************************************************************95..............................
+#=GC PP_cons              7*899*************..8****9..****************************9**************************************...************************9*****************************8
+#=GC RF                   xxxxxxxxxxxxxxxxxx..xxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID HBB_RABIT-i2
+
+#=GS HBB_HUMAN/1-146   DE [subseq from] HBB_HUMAN
+#=GS MYG_PHYCA/2-146   DE [subseq from] MYG_PHYCA
+#=GS HBA_HUMAN/2-140   DE [subseq from] HBA_HUMAN
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+HBB_RABIT                 VHLSSEEKSAVTALWGKV--NVE--EVG--GEALGRLLVVYPWTQRFFESFGDLSSANAVMNNPKVKAHGKKVLAAFSEGLSHLDNLKGTFAKLSEL---HCDKLHVDPENFRLLGNVLVIVLSHHFGKEFTPQVQAAYQKVVAGVANALAHKYH
+HBB_HUMAN/1-146           VHLTPEEKSAVTALWGKV--NVD--EVG--GEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSEL---HCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH
+#=GR HBB_HUMAN/1-146   PP 7*****************..***..***..*******************************************************************...******************************************************8
+MYG_PHYCA/2-146           --LSEGEWQLVLHVWAKV--EAD--VAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQS---HATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKY-
+#=GR MYG_PHYCA/2-146   PP ..8***************..***..98877*******************************************************************...******************************************************.
+HBA_HUMAN/2-140           --LSPADKTNVKAAWGKV--GAHAGEYG--AEALERMFLSFPTTKTYFPHF-DLSHGSA-----QVKGHGKKVADALTNAVAHVDDMPNALSALSDL---HAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY-
+#=GR HBA_HUMAN/2-140   PP ..8***************..88888***..*********************.****998.....*********************************...******************************************************.
+GLB5_PETMA/11-129         --LSAAEKTKIRSAWAPVYSTYE--TSG--VDILVKFFTSTPAAQEFFPKFKGLTTADQLKKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------
+#=GR GLB5_PETMA/11-129 PP ..8***************999**..***..*****************************************************************************************987765..............................
+#=GC PP_cons              7*9***************..999..*99..****************************9**************************************...********************99999*****************************8
+#=GC RF                   xxxxxxxxxxxxxxxxxx..xxx..xxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID HBB_TUPGL-i2
+
+#=GS HBB_HUMAN/1-146   DE [subseq from] HBB_HUMAN
+#=GS MYG_PHYCA/2-146   DE [subseq from] MYG_PHYCA
+#=GS HBA_HUMAN/2-140   DE [subseq from] HBA_HUMAN
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+HBB_TUPGL                 VHLSGEEKAAVTGLWGKV--DLE--KVG-GQS-LGSLLIVYPWTQRFFDSFGDLSSPSAVMSNPKVKAHGKKVLTSFSDGLNHLDNLKGTFAKLSEL---HCDKLHVDPENFRLLGNVLVRVLACNFGPEFTPQVQAAFQKVVAGVANALAHKYH
+HBB_HUMAN/1-146           VHLTPEEKSAVTALWGKV--NVD--EVG-GEA-LGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSEL---HCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH
+#=GR HBB_HUMAN/1-146   PP 7*****************..***..***.***.****************************************************************...******************************************************8
+MYG_PHYCA/2-146           --LSEGEWQLVLHVWAKV--EAD--VAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQS---HATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKY-
+#=GR MYG_PHYCA/2-146   PP ..8999************..***..*9997777****************************************************************...******************************************************.
+HBA_HUMAN/2-140           --LSPADKTNVKAAWGKV--GAHAGEYG-AEA-LERMFLSFPTTKTYFPHF-DLSHGSA-----QVKGHGKKVADALTNAVAHVDDMPNALSALSDL---HAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY-
+#=GR HBA_HUMAN/2-140   PP ..8***************..888889**.***.******************.****999.....*********************************...******************************************************.
+GLB5_PETMA/11-129         --LSAAEKTKIRSAWAPVYSTYE--TSG-VDI-LVKFFTSTPAAQEFFPKFKGLTTADQLKKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------
+#=GR GLB5_PETMA/11-129 PP ..8***************999**..***.***.******************************************************************************************98..............................
+#=GC PP_cons              7*9***************..999..***.999.****************************************************************...************************9*****************************8
+#=GC RF                   xxxxxxxxxxxxxxxxxx..xxx..xxx.xxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID HBB_TRIIN-i2
+
+#=GS HBB_HUMAN/1-146   DE [subseq from] HBB_HUMAN
+#=GS MYG_PHYCA/2-146   DE [subseq from] MYG_PHYCA
+#=GS HBA_HUMAN/2-140   DE [subseq from] HBA_HUMAN
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+HBB_TRIIN                 VHLTPEEKALVIGLWAKV--NVKEYGGEALGRLLVVYPWTQRFFEHFGDLSSASAIMNNPKVKAHGEKVFTSFGDGLKHLEDLKGA---FAELSELHCDKLHVDPENFRLLGNVLVCVLARHFGKEFSPEAQAAYQKVVAGVANALAHKYH
+HBB_HUMAN/1-146           VHLTPEEKSAVTALWGKV--NVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGT---FATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH
+#=GR HBB_HUMAN/1-146   PP 7*****************..******************************************************************...*************************************************************8
+MYG_PHYCA/2-146           --LSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAE---LKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKY-
+#=GR MYG_PHYCA/2-146   PP ..899*************888*****************************************************************...*************************************************************.
+HBA_HUMAN/2-140           --LSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHF-DLSHGSA-----QVKGHGKKVADALTNAVAHVDDMPNA---LSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY-
+#=GR HBA_HUMAN/2-140   PP ..8***************76699************************.****999.....**************************...*************************************************************.
+GLB5_PETMA/11-129         --LSAAEKTKIRSAWAPVYSTYETSGVDILVKFFTSTPAAQEFFPKFKGLTTADQLKKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------
+#=GR GLB5_PETMA/11-129 PP ..89**************988****************************************************************9999******************************95..............................
+#=GC PP_cons              7*99**************..8*****************************************************************...*******************************9*****************************8
+#=GC RF                   xxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID HBB_COLLI-i2
+
+#=GS HBB_HUMAN/1-146   DE [subseq from] HBB_HUMAN
+#=GS MYG_PHYCA/2-146   DE [subseq from] MYG_PHYCA
+#=GS HBA_HUMAN/2-140   DE [subseq from] HBA_HUMAN
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+HBB_COLLI                 VHWSAEEKQLITSIWGKV--NVADCGAEALARLLIVYPWTQRFFSSFGNLSSATAISGNPNVKAHGKKVLTSFGDAVKNLDNIKGT---FAQLSELHCDKLHVDPENFRLLGDILVIILAAHFGKDFTPECQAAWQKLVRVVAHALARKYH
+HBB_HUMAN/1-146           VHLTPEEKSAVTALWGKV--NVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGT---FATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH
+#=GR HBB_HUMAN/1-146   PP 7*****************..******************************************************************...*************************************************************8
+MYG_PHYCA/2-146           --LSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAE---LKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKY-
+#=GR MYG_PHYCA/2-146   PP ..6889************888*****************************************************************...*************************************************************.
+HBA_HUMAN/2-140           --LSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHFD-LS-----HGSAQVKGHGKKVADALTNAVAHVDDMPNA---LSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY-
+#=GR HBA_HUMAN/2-140   PP ..699*************76699************************9.*9.....******************************...*************************************************************.
+GLB5_PETMA/11-129         --LSAAEKTKIRSAWAPVYSTYETSGVDILVKFFTSTPAAQEFFPKFKGLTTADQLKKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------
+#=GR GLB5_PETMA/11-129 PP ..79**************988****************************************************************9999******************************99..............................
+#=GC PP_cons              7*799*************..8*****************************************************************...*************************************************************8
+#=GC RF                   xxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID HBB_LARRI-i2
+
+#=GS HBB_HUMAN/1-146   DE [subseq from] HBB_HUMAN
+#=GS MYG_PHYCA/2-146   DE [subseq from] MYG_PHYCA
+#=GS HBA_HUMAN/2-140   DE [subseq from] HBA_HUMAN
+#=GS GLB5_PETMA/11-130 DE [subseq from] GLB5_PETMA
+
+HBB_LARRI                 VHWSAEEKQLITGLWGKV--NVADCGAEALARLLIVYPWTQRFFASFGNLSSPTAINGNPMVRAHGKKVLTSFGEAVKNLDNIKNTFA---QLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKDFTPDSQAAWQKLVRVVAHALARKYH
+HBB_HUMAN/1-146           VHLTPEEKSAVTALWGKV--NVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFA---TLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH
+#=GR HBB_HUMAN/1-146   PP 7*****************..********************************************************************...***********************************************************8
+MYG_PHYCA/2-146           --LSEGEWQLVLHVWAKVEADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELK---PLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKY-
+#=GR MYG_PHYCA/2-146   PP ..6889************888*******************************************************************...***********************************************************.
+HBA_HUMAN/2-140           --LSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHFD-LS-----HGSAQVKGHGKKVADALTNAVAHVDDMPNALS---ALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY-
+#=GR HBA_HUMAN/2-140   PP ..699*************76699************************9.**.....********************************...***********************************************************.
+GLB5_PETMA/11-130         --LSAAEKTKIRSAWAPVYSTYETSGVDILVKFFTSTPAAQEFFPKFKGLTTADQLKKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAAG-----------------------------
+#=GR GLB5_PETMA/11-130 PP ..79**************988*****************************************************************9988899***************************98.............................
+#=GC PP_cons              7*799*************..8*******************************************************************...******************************9****************************8
+#=GC RF                   xxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID HBB1_VAREX-i2
+
+#=GS HBB_HUMAN/1-146   DE [subseq from] HBB_HUMAN
+#=GS MYG_PHYCA/4-146   DE [subseq from] MYG_PHYCA
+#=GS HBA_HUMAN/3-140   DE [subseq from] HBA_HUMAN
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+HBB1_VAREX                VHWTAEEKQLICSLWGKI--DVGLIG--GETLAGLLVIYPWTQRQFSHFGNLSSPTAIAGNPRVKAHGKKVLTSFGDAIKNLDNIKDTFAKLSEL---HCDKLHVDPTNFKLLGNVLVIVLADHHGKEFTPAHHAAYQKLVNVVSHSLARRYH
+HBB_HUMAN/1-146           VHLTPEEKSAVTALWGKV--NVDEVG--GEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSEL---HCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH
+#=GR HBB_HUMAN/1-146   PP 7*****************..******..*******************************************************************...******************************************************8
+MYG_PHYCA/4-146           ----EGEWQLVLHVWAKV--EADVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAELKPLAQS---HATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKY-
+#=GR MYG_PHYCA/4-146   PP ....569***********..***99888*******************************************************************...******************************************************.
+HBA_HUMAN/3-140           ---SPADKTNVKAAWGKVGAHAGEYG--AEALERMFLSFPTTKTYFPHFD-LS-----HGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDL---HAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY-
+#=GR HBA_HUMAN/3-140   PP ...789************5559****..*********************9.*9.....*************************************...******************************************************.
+GLB5_PETMA/11-129         --LSAAEKTKIRSAWAPVYSTYETSG--VDILVKFFTSTPAAQEFFPKFKGLTTADQLKKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------
+#=GR GLB5_PETMA/11-129 PP ..679*************888*****..********************************************************************************************975..............................
+#=GC PP_cons              7*8889************..8****9..*******************************************************************...***********************99*****************************8
+#=GC RF                   xxxxxxxxxxxxxxxxxx..xxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID HBB2_XENTR-i2
+
+#=GS HBB_HUMAN/1-145   DE [subseq from] HBB_HUMAN
+#=GS HBA_HUMAN/2-140   DE [subseq from] HBA_HUMAN
+#=GS MYG_PHYCA/5-145   DE [subseq from] MYG_PHYCA
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+HBB2_XENTR                VHWTAEEKATIASVWGKV--DIE--QDGH--DALSRLLVVYPWTQRYFSSFGNLSNVSAVSGNVKVKAHGNKVLSAVGSAIQHLDDVKS---HLKGLSKSHAEDLHVDPENFKRLADVLVIVLAAKLGSAFTPQVQAVWEKLNATLVAALSHGYF
+HBB_HUMAN/1-145           VHLTPEEKSAVTALWGKV--NVD--EVGG--EALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKG---TFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY-
+#=GR HBB_HUMAN/1-145   PP 8*****************..***..****..**********************************************************...*************************************************************9.
+HBA_HUMAN/2-140           --LSPADKTNVKAAWGKV--GAHAGEYGA--EALERMFLSFPTTKTYFPHF-DLSH-----GSAQVKGHGKKVADALTNAVAHVDDMPN---ALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY-
+#=GR HBA_HUMAN/2-140   PP ..689*************..888889***..********************.****.....****************************...************************************************************99.
+MYG_PHYCA/5-145           -----GEWQLVLHVWAKV--EAD--VAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEA---ELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAK--
+#=GR MYG_PHYCA/5-145   PP .....567789*******..***..999988**********************************************************...************************************************9887666666555..
+GLB5_PETMA/11-129         --LSAAEKTKIRSAWAPVYSTYE--TSGV--DILVKFFTSTPAAQEFFPKFKGLTTADQLKKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------
+#=GR GLB5_PETMA/11-129 PP ..699*************999**..****..*********************************************************9999********************************9..............................
+#=GC PP_cons              8*79999999********..999..9***..**********************************************************...*************************************************9999999998889.
+#=GC RF                   xxxxxxxxxxxxxxxxxx..xxx..xxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID HBBL_RANCA-i2
+
+#=GS HBB_HUMAN/1-146   DE [subseq from] HBB_HUMAN
+#=GS HBA_HUMAN/2-140   DE [subseq from] HBA_HUMAN
+#=GS MYG_PHYCA/5-146   DE [subseq from] MYG_PHYCA
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+HBBL_RANCA                VHWTAEEKAVINSVWQKV--DVE--QDGH--EALTRLFIVYPWTQRYFSTFGDLSSPAAIAGNPKVHAHGKKILGAIDNAIHNLDDVKG---TLHDLSEEHANELHVDPENFRRLGEVLIVVLGAKLGKAFSPQVQHVWEKFIAVLVDALSHSYH
+HBB_HUMAN/1-146           VHLTPEEKSAVTALWGKV--NVD--EVGG--EALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKG---TFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH
+#=GR HBB_HUMAN/1-146   PP 8*****************..***..****..**********************************************************...**************************************************************9
+HBA_HUMAN/2-140           --LSPADKTNVKAAWGKV--GAHAGEYGA--EALERMFLSFPTTKTYFPHF-DLSH-----GSAQVKGHGKKVADALTNAVAHVDDMPN---ALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY-
+#=GR HBA_HUMAN/2-140   PP ..689*************..888789***..********************.****.....****************************...*************************************************************9.
+MYG_PHYCA/5-146           -----GEWQLVLHVWAKV--EAD--VAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEA---ELKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKY-
+#=GR MYG_PHYCA/5-146   PP .....567789*******..***..999988**********************************************************...***************************************************99988888888.
+GLB5_PETMA/11-129         --LSAAEKTKIRSAWAPVYSTYE--TSGV--DILVKFFTSTPAAQEFFPKFKGLTTADQLKKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA------------------------------
+#=GR GLB5_PETMA/11-129 PP ..699*************999**..****..*********************************************************9999******************************976..............................
+#=GC PP_cons              8*79999999********..999..9***..**********************************************************...*******************************99*********************999999999
+#=GC RF                   xxxxxxxxxxxxxxxxxx..xxx..xxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+# STOCKHOLM 1.0
+#=GF ID HBB2_TRICR-i3
+
+#=GS HBB_HUMAN/1-145   DE [subseq from] HBB_HUMAN
+#=GS MYG_PHYCA/2-146   DE [subseq from] MYG_PHYCA
+#=GS HBA_HUMAN/2-140   DE [subseq from] HBA_HUMAN
+#=GS GLB5_PETMA/11-129 DE [subseq from] GLB5_PETMA
+
+HBB2_TRICR                VHLTAEDRKEIAAILGKVNV--DS--LGGQCLARLIVVNPWSRRYFHDFGDLSSCDAICRNPKVLAHGAKVMRSIVEATKHLDNLREY---YADLSVTHSLKFYVDPENFKLFSGIVIVCLALTLQTDFSCHKQLAFEKLMKGVSHALGHGY
+HBB_HUMAN/1-145           VHLTPEEKSAVTALWGKVNV--DE--VGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGT---FATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY
+#=GR HBB_HUMAN/1-145   PP 8*******************..**..**************************************************************...************************************************************9
+MYG_PHYCA/2-146           --LSEGEWQLVLHVWAKVEA--DVAGHGQDILIRLFKSHPETLEKFDRFKHLKTEAEMKASEDLKKHGVTVLTALGAILKKKGHHEAE---LKPLAQSHATKHKIPIKYLEFISEAIIHVLHSRHPGDFGADAQGAMNKALELFRKDIAAKY
+#=GR MYG_PHYCA/2-146   PP ..7889**************..99889*************************************************************...***********************************************************99
+HBA_HUMAN/2-140           --LSPADKTNVKAAWGKVGAHAGE--YGAEALERMFLSFPTTKTYFPHF-DLSHGSA-----QVKGHGKKVADALTNAVAHVDDMPNA---LSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKY
+#=GR HBA_HUMAN/2-140   PP ..89***************98889..***********************.****999.....**************************...************************************************************9
+GLB5_PETMA/11-129         --LSAAEKTKIRSAWAPVYSTYET--SGVDILVKFFTSTPAAQEFFPKFKGLTTADQLKKSADVRWHAERIINAVNDAVASMDDTEKMSMKLRDLSGKHAKSFQVDPQYFKVLAAVIADTVAA-----------------------------
+#=GR GLB5_PETMA/11-129 PP ..8*****************9999..*************************************************************9999*******************************9.............................
+#=GC PP_cons              8*899***************..99..**************************************************************...************************************************************9
+#=GC RF                   xxxxxxxxxxxxxxxxxxxx..xx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
