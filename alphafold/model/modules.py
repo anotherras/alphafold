@@ -2084,7 +2084,7 @@ class SingleTemplateEmbedding(hk.Module):
         to_concat.append(jnp.tile(aatype[:, None, :], [1, num_res, 1]))
 
         n, ca, c = [residue_constants.atom_order[a] for a in ('N', 'CA', 'C')]  # letter to number
-        rot, trans = quat_affine.make_transform_from_reference(
+        rot, trans = quat_affine.make_transform_from_reference(  # object -> ori
             n_xyz=batch['template_all_atom_positions'][:, n],
             ca_xyz=batch['template_all_atom_positions'][:, ca],
             c_xyz=batch['template_all_atom_positions'][:, c])
@@ -2094,7 +2094,7 @@ class SingleTemplateEmbedding(hk.Module):
             rotation=rot,
             unstack_inputs=True)
         points = [jnp.expand_dims(x, axis=-2) for x in affines.translation]
-        affine_vec = affines.invert_point(points, extra_dims=1)
+        affine_vec = affines.invert_point(points, extra_dims=1)  # ori -> objet
         inv_distance_scalar = jax.lax.rsqrt(
             1e-6 + sum([jnp.square(x) for x in affine_vec]))
 

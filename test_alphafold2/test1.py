@@ -213,3 +213,15 @@ print(new_arr)
 x = np.array([1, 2, 3, 4])
 print(x[:, None] - x[None, :])
 print(x[None, :] - x[:, None])
+
+translation = np.arange(0, 15).reshape(5, 3)
+print('====')
+print(translation)
+
+translation = jnp.moveaxis(translation, -1, 0)
+translation = list(translation)
+print('================================================================')
+print(translation)
+
+points = [jnp.expand_dims(x, axis=-2) for x in translation]
+print(points)

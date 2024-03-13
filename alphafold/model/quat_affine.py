@@ -96,10 +96,15 @@ def rot_to_quat(rot, unstack_inputs=False):
       Quaternion as (..., 4) tensor.
     """
     if unstack_inputs:
-        rot = [jnp.moveaxis(x, -1, 0) for x in jnp.moveaxis(rot, -2, 0)]
+        rot = [jnp.moveaxis(x, -1, 0) for x in
+               jnp.moveaxis(rot, -2, 0)]  # upack 为 3 个 3 * N_res (rot_mat 的九个elemnet依次排列)
 
     [[xx, xy, xz], [yx, yy, yz], [zx, zy, zz]] = rot
 
+    """
+    How to convert a rotation matrix to quaternions
+    https://blog.csdn.net/shenshikexmu/article/details/53608224
+    """
     # pylint: disable=bad-whitespace
     k = [[xx + yy + zz, zy - yz, xz - zx, yx - xy, ],
          [zy - yz, xx - yy - zz, xy + yx, xz + zx, ],
@@ -389,8 +394,8 @@ def make_canonical_transform(
 
     # Place CA at the origin.
     translation = -ca_xyz
-    n_xyz = n_xyz + translation
-    c_xyz = c_xyz + translation
+    n_xyz = n_xyz + translation  # new coord of n
+    c_xyz = c_xyz + translation  # new coord of c
 
     # Place C on the x-axis.
     c_x, c_y, c_z = [c_xyz[:, i] for i in range(3)]
@@ -400,7 +405,7 @@ def make_canonical_transform(
     zeros = jnp.zeros_like(sin_c1)
     ones = jnp.ones_like(sin_c1)
     # pylint: disable=bad-whitespace
-    # 逆时针？？
+    # counterclockwise？？
     c1_rot_matrix = jnp.stack([jnp.array([cos_c1, -sin_c1, zeros]),
                                jnp.array([sin_c1, cos_c1, zeros]),
                                jnp.array([zeros, zeros, ones])])
@@ -413,7 +418,7 @@ def make_canonical_transform(
                                jnp.array([zeros, ones, zeros]),
                                jnp.array([-sin_c2, zeros, cos_c2])])
 
-    c_rot_matrix = _multiply(c2_rot_matrix, c1_rot_matrix)
+    c_rot_matrix = _multiply(c2_rot_matrix, c1_rot_matrix)  # 3 * 3 * N_res
     n_xyz = jnp.stack(apply_rot_to_vec(c_rot_matrix, n_xyz, unstack=True)).T
 
     # Place N in the x-y plane.
@@ -427,7 +432,7 @@ def make_canonical_transform(
     # pylint: enable=bad-whitespace
 
     return (translation,
-            jnp.transpose(_multiply(n_rot_matrix, c_rot_matrix), [2, 0, 1]))
+            jnp.transpose(_multiply(n_rot_matrix, c_rot_matrix), [2, 0, 1]))  # 转为 N_res , 3 , 3 正常旋转矩阵
 
 
 def make_transform_from_reference(
