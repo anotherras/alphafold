@@ -688,7 +688,8 @@ class GlobalAttention(hk.Module):
 
         v = jnp.einsum('bka,ac->bkc', m_data, v_weights)
 
-        q_avg = utils.mask_mean(q_mask, q_data, axis=1)
+        q_avg = utils.mask_mean(q_mask, q_data, axis=1)  # [batch_size, N_queries, q_channels]
+                                                         # [batch_size, N_queries, q_channels]
 
         q = jnp.einsum('ba,ahc->bhc', q_avg, q_weights) * key_dim ** (-0.5)
         k = jnp.einsum('bka,ac->bkc', m_data, k_weights)
@@ -1334,7 +1335,7 @@ class TriangleMultiplication(hk.Module):
         input_act = act
 
         left_projection = common_modules.Linear(
-            c.num_intermediate_channel,
+            c.num_intermediate_channel,  # num_intermediate_channel == 64
             name='left_projection')
         left_proj_act = mask * left_projection(act)
 
@@ -1364,6 +1365,9 @@ class TriangleMultiplication(hk.Module):
         # For the "outgoing" edges, a = left_proj_act and b = right_proj_act
         # For the "incoming" edges, it's swapped:
         #   b = left_proj_act and a = right_proj_act
+
+        # outgoing : i->k , k->j => i->j    ?
+        # incoming : i<-k , j->k => i->j    ?
         act = jnp.einsum(c.equation, left_proj_act, right_proj_act)
 
         act = common_modules.LayerNorm(
@@ -1389,7 +1393,7 @@ class TriangleMultiplication(hk.Module):
 
         return act
 
-    @hk.transparent
+    @hk.transparent  # ?
     def _fused_triangle_multiplication(self, left_act, left_mask):
         """TriangleMultiplication with fused projection weights."""
         mask = left_mask[..., None]
@@ -1542,7 +1546,7 @@ class OuterProductMean(hk.Module):
         act = common_modules.LayerNorm([-1], True, True, name='layer_norm_input')(act)
 
         left_act = mask * common_modules.Linear(
-            c.num_outer_channel,
+            c.num_outer_channel,  # 32
             initializer='linear',
             name='left_projection')(
             act)
@@ -1569,6 +1573,7 @@ class OuterProductMean(hk.Module):
             dtype=act.dtype,
             init=hk.initializers.Constant(0.0))
 
+        #  left : N_seq , N_res , 32  right : N_seq , N_res , 32  , 暂时有点问题
         def compute_chunk(left_act):
             # This is equivalent to
             #
@@ -1890,18 +1895,18 @@ class EmbeddingsAndEvoformer(hk.Module):
         # Jumper et al. (2021) Suppl. Alg. 2 "Inference" lines 9-13
         if c.template.enabled:
             template_batch = {k: batch[k] for k in batch if k.startswith('template_')}
-            # pair_activation : N_res , N_res , 128
+            # pair_activation : N_res , N_res , 128  , template_pair_representation N_res, N_res, c_z
             template_pair_representation = TemplateEmbedding(c.template, gc)(
                 pair_activations,
                 template_batch,
                 mask_2d,
                 is_training=is_training)
 
-            pair_activations += template_pair_representation
+            pair_activations += template_pair_representation  # N_res, N_res, c_z
 
         # Embed extra MSA features.
         # Jumper et al. (2021) Suppl. Alg. 2 "Inference" lines 14-16
-        extra_msa_feat = create_extra_msa_feature(batch)
+        extra_msa_feat = create_extra_msa_feature(batch)  # Nextra_seq; Nres; 25
         extra_msa_activations = common_modules.Linear(
             c.extra_msa_channel,
             name='extra_msa_activations')(
@@ -2193,8 +2198,10 @@ class TemplateEmbedding(hk.Module):
         # Cross attend from the query to the templates along the residue
         # dimension by flattening everything else into the batch dimension.
         # Jumper et al. (2021) Suppl. Alg. 17 "TemplatePointwiseAttention"
+
+        # query中的每一对AA与所有template中的所有AA做Attention
         flat_query = jnp.reshape(query_embedding,
-                                 [num_res * num_res, 1, query_num_channels])
+                                 [num_res * num_res, 1, query_num_channels])  # 1_1 , 1_2 , 1_3 ... 2_1 , 2_2 , ...
 
         flat_templates = jnp.reshape(
             jnp.transpose(template_pair_representation, [1, 2, 0, 3]),
@@ -2217,6 +2224,7 @@ class TemplateEmbedding(hk.Module):
                                 [num_res, num_res, query_num_channels])
 
         # No gradients if no templates.
+        # ?
         embedding *= (jnp.sum(template_mask) > 0.).astype(embedding.dtype)
 
         return embedding

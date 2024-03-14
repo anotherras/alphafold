@@ -263,7 +263,7 @@ def layer_stack(num_layers: int,
         else:
             _check_no_varargs(f)
 
-            @functools.wraps(f)
+            @functools.wraps(f)  # 消除装饰器对原函数的影响，wrap之后拥有原函数的属性
             def wrapped(*args):
                 ret = _LayerStackNoState(
                     f, num_layers, unroll=unroll, name=name)(args, None)[0]

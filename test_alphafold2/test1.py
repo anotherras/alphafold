@@ -225,3 +225,11 @@ print(translation)
 
 points = [jnp.expand_dims(x, axis=-2) for x in translation]
 print(points)
+
+x = jnp.arange(0, 24).reshape(1, 2, 3, 4)
+y = x[:, :, 0:2]
+z = x[:, :, 3]
+print(y.shape)
+print(z.shape)
+zz = jnp.prod(y, axis=-1)
+print(zz * z)
