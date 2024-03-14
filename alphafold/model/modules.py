@@ -1963,6 +1963,7 @@ class EmbeddingsAndEvoformer(hk.Module):
 
             # Embed the templates aatype, torsion angles and masks.
             # Shape (templates, residues, msa_channels)
+            # 扭转角
             ret = all_atom.atom37_to_torsion_angles(
                 aatype=batch['template_aatype'],
                 all_atom_pos=batch['template_all_atom_positions'],

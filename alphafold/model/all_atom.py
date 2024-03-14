@@ -1142,3 +1142,20 @@ def get_alt_atom14(aatype, positions, mask):
     alternative_mask = jnp.sum(mask[..., None] * renaming_transform, axis=1)
 
     return alternative_positions, alternative_mask
+
+
+if __name__ == '__main__':
+    # def atom37_to_torsion_angles(
+    #         aatype: jnp.ndarray,  # (B, N)
+    #         all_atom_pos: jnp.ndarray,  # (B, N, 37, 3)
+    #         all_atom_mask: jnp.ndarray,  # (B, N, 37)
+    #         placeholder_for_undefined=False,
+    # ) -> Dict[str, jnp.ndarray]:
+    b = 5
+    n = 10
+    rng = jax.random.PRNGKey(0)
+    aatype = jax.random.randint(rng, (b, n), minval=0, maxval=10)
+    all_atom_pos = jax.random.randint(rng, (b, n, 37, 3), minval=0, maxval=10)
+    all_atom_mask = jax.random.randint(rng, (b, n, 37), minval=0, maxval=10)
+
+    atom37_to_torsion_angles(aatype, all_atom_pos, all_atom_mask)
