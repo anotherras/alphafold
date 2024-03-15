@@ -89,9 +89,12 @@ def rigids_from_3_points(
       Rigid transformations from global frame to local frames derived from
       the input points.
     """
+    # origin  N
+    # point_on_neg_x_axis  C
+    # point_on_xy_plane    alpha_C
     m = rots_from_two_vecs(
-        e0_unnormalized=vecs_sub(origin, point_on_neg_x_axis),
-        e1_unnormalized=vecs_sub(point_on_xy_plane, origin))
+        e0_unnormalized=vecs_sub(origin, point_on_neg_x_axis),   # C -> N
+        e1_unnormalized=vecs_sub(point_on_xy_plane, origin))     # N -> alpha_C    ??
 
     return Rigids(rot=m, trans=origin)
 

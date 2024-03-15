@@ -389,10 +389,12 @@ def atom37_to_torsion_angles(
          ], axis=2)
 
     # Create a frame from the first three atoms:
-    # First atom: point on x-y-plane
-    # Second atom: point on negative x-axis
-    # Third atom: origin
+    # First atom: point on x-y-plane          alpha_C
+    # Second atom: point on negative x-axis      C
+    # Third atom: origin                         N
     # r3.Rigids (B, N, torsions=7)
+
+    # global frame to local frames
     torsion_frames = r3.rigids_from_3_points(
         point_on_neg_x_axis=r3.vecs_from_tensor(torsions_atom_pos[:, :, :, 1, :]),
         origin=r3.vecs_from_tensor(torsions_atom_pos[:, :, :, 2, :]),

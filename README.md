@@ -1,2 +1,2 @@
-# AlphaFold notebook
+# AlphaFold Note
 

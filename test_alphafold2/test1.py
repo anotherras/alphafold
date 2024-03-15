@@ -226,10 +226,79 @@ print(translation)
 points = [jnp.expand_dims(x, axis=-2) for x in translation]
 print(points)
 
-x = jnp.arange(0, 24).reshape(1, 2, 3, 4)
-y = x[:, :, 0:2]
-z = x[:, :, 3]
-print(y.shape)
-print(z.shape)
-zz = jnp.prod(y, axis=-1)
-print(zz * z)
+heads = {
+    'distogram': {
+        'first_break': 2.3125,
+        'last_break': 21.6875,
+        'num_bins': 64,
+        'weight': 0.3
+    },
+    'predicted_aligned_error': {
+        # `num_bins - 1` bins uniformly space the
+        # [0, max_error_bin A] range.
+        # The final bin covers [max_error_bin A, +infty]
+        # 31A gives bins with 0.5A width.
+        'max_error_bin': 31.,
+        'num_bins': 64,
+        'num_channels': 128,
+        'filter_by_resolution': True,
+        'min_resolution': 0.1,
+        'max_resolution': 3.0,
+        'weight': 0.0,
+    },
+    'experimentally_resolved': {
+        'filter_by_resolution': True,
+        'max_resolution': 3.0,
+        'min_resolution': 0.1,
+        'weight': 0.01
+    },
+    'structure_module': {
+        'num_layer': 8,
+        'fape': {
+            'clamp_distance': 10.0,
+            'clamp_type': 'relu',
+            'loss_unit_distance': 10.0
+        },
+        'angle_norm_weight': 0.01,
+        'chi_weight': 0.5,
+        'clash_overlap_tolerance': 1.5,
+        'compute_in_graph_metrics': True,
+        'dropout': 0.1,
+        'num_channel': 384,
+        'num_head': 12,
+        'num_layer_in_transition': 3,
+        'num_point_qk': 4,
+        'num_point_v': 8,
+        'num_scalar_qk': 16,
+        'num_scalar_v': 16,
+        'position_scale': 10.0,
+        'sidechain': {
+            'atom_clamp_distance': 10.0,
+            'num_channel': 128,
+            'num_residual_block': 2,
+            'weight_frac': 0.5,
+            'length_scale': 10.,
+        },
+        'structural_violation_loss_weight': 1.0,
+        'violation_tolerance_factor': 12.0,
+        'weight': 1.0
+    },
+    'predicted_lddt': {
+        'filter_by_resolution': True,
+        'max_resolution': 3.0,
+        'min_resolution': 0.1,
+        'num_bins': 50,
+        'num_channels': 128,
+        'weight': 0.01
+    },
+    'masked_msa': {
+        'num_output': 23,
+        'weight': 2.0
+    },
+}
+x = jnp.arange(0, 24).reshape(2, 3, 4)
+y = [x,x]
+print(sum(y).shape)
+
+
+

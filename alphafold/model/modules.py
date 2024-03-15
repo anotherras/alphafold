@@ -1971,6 +1971,7 @@ class EmbeddingsAndEvoformer(hk.Module):
                 # Ensure consistent behaviour during testing:
                 placeholder_for_undefined=not gc.zero_init)
 
+            # N_templ , N_res , 51
             template_features = jnp.concatenate([
                 aatype_one_hot,
                 jnp.reshape(
@@ -1986,7 +1987,7 @@ class EmbeddingsAndEvoformer(hk.Module):
                 template_features)
             template_activations = jax.nn.relu(template_activations)
             template_activations = common_modules.Linear(
-                c.msa_channel,
+                c.msa_channel,                 # 256
                 initializer='relu',
                 name='template_projection')(
                 template_activations)
