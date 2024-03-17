@@ -41,19 +41,19 @@ def nonensembled_map_fns(data_config):
         data_transforms.squeeze_features,  # squeeze if shape[-1] ==1
         # Keep to not disrupt RNG.
         data_transforms.randomly_replace_msa_with_unknown(0.0),  # 用x_idx mask msa和aatype
-        data_transforms.make_seq_mask,  # ones
-        data_transforms.make_msa_mask,  # row mask and mask
+        data_transforms.make_seq_mask,  # + protein['seq_mask']
+        data_transforms.make_msa_mask,  # + protein['msa_mask'] and protein['msa_row_mask']
         # Compute the HHblits profile if it's not set. This has to be run before
         # sampling the MSA.
 
         # if hhblits_profile not in ，Compute the first dimension of the reduce mean
         data_transforms.make_hhblits_profile,
-        data_transforms.make_random_crop_to_size_seed,
+        data_transforms.make_random_crop_to_size_seed,  # + protein['random_crop_to_size_seed']
     ]
     if common_cfg.use_templates:
         map_fns.extend([
             data_transforms.fix_templates_aatype,  # ont-hot -> indices -> our emb
-            data_transforms.make_template_mask,  # ones
+            data_transforms.make_template_mask,  # + protein['template_mask']
             data_transforms.make_pseudo_beta('template_')
         ])
     map_fns.extend([
@@ -78,6 +78,10 @@ def ensembled_map_fns(data_config):
     max_msa_clusters = pad_msa_clusters  # paper p7
     max_extra_msa = common_cfg.max_extra_msa  # paper p7
 
+    # split and add _MSA_FEATURE_NAMES = [
+    #     'extra_msa', 'extra_deletion_matrix', 'extra_msa_mask', 'extra_msa_row_mask', 'extra_bert_mask',
+    #     'extra_true_msa'
+    # ]
     map_fns.append(
         data_transforms.sample_msa(
             max_msa_clusters,
@@ -86,12 +90,14 @@ def ensembled_map_fns(data_config):
     if 'masked_msa' in common_cfg:
         # Masked MSA should come *before* MSA clustering so that
         # the clustering and full MSA profile do not leak information about
-        # the masked locations and secret corrupted locations.                     # paper 7
+        # the masked locations and secret corrupted locations.
+        # add protein['bert_mask']  protein['true_msa'] = protein['msa']  protein['msa'] # paper 7
         map_fns.append(
             data_transforms.make_masked_msa(common_cfg.masked_msa,
                                             eval_cfg.masked_msa_replace_fraction))  # masked_msa_replace_fraction==0.15
 
     if common_cfg.msa_cluster_features:
+        # 每个extra最近的sample (Hamming distance)
         map_fns.append(data_transforms.nearest_neighbor_clusters())
         map_fns.append(data_transforms.summarize_clusters())
 
@@ -100,7 +106,7 @@ def ensembled_map_fns(data_config):
         map_fns.append(data_transforms.crop_extra_msa(max_extra_msa))
     else:
         map_fns.append(data_transforms.delete_extra_msa)
-
+    # paper 8 -> msa_feat
     map_fns.append(data_transforms.make_msa_feat())
 
     crop_feats = dict(eval_cfg.feat)
@@ -142,6 +148,7 @@ def process_tensors_from_config(tensors, data_config):
         tensors)
 
     tensors_0 = wrap_ensemble_fn(tensors, tf.constant(0))
+
     num_ensemble = eval_cfg.num_ensemble
     if data_config.common.resample_msa_in_recycling:
         # Separate batch per ensembling & recycling step.

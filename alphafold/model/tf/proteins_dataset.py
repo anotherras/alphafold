@@ -156,6 +156,34 @@ def np_to_tensor_dict(
       A dictionary of features mapping feature names to features. Only the given
       features are returned, all other ones are filtered out.
     """
+    """
+    features_metadata:
+    FEATURES = {
+    #### Static features of a protein sequence ####
+    "aatype": (tf.float32, [NUM_RES, 21]),
+    "between_segment_residues": (tf.int64, [NUM_RES, 1]),
+    "deletion_matrix": (tf.float32, [NUM_SEQ, NUM_RES, 1]),
+    "domain_name": (tf.string, [1]),
+    "msa": (tf.int64, [NUM_SEQ, NUM_RES, 1]),
+    "num_alignments": (tf.int64, [NUM_RES, 1]),
+    "residue_index": (tf.int64, [NUM_RES, 1]),
+    "seq_length": (tf.int64, [NUM_RES, 1]),
+    "sequence": (tf.string, [1]),
+    "all_atom_positions": (tf.float32,
+                           [NUM_RES, residue_constants.atom_type_num, 3]),
+    "all_atom_mask": (tf.int64, [NUM_RES, residue_constants.atom_type_num]),
+    "resolution": (tf.float32, [1]),
+    "template_domain_names": (tf.string, [NUM_TEMPLATES]),
+    "template_sum_probs": (tf.float32, [NUM_TEMPLATES, 1]),
+    "template_aatype": (tf.float32, [NUM_TEMPLATES, NUM_RES, 22]),
+    "template_all_atom_positions": (tf.float32, [
+        NUM_TEMPLATES, NUM_RES, residue_constants.atom_type_num, 3
+    ]),
+    "template_all_atom_masks": (tf.float32, [
+        NUM_TEMPLATES, NUM_RES, residue_constants.atom_type_num, 1
+    ]),
+}
+    """
     features_metadata = _make_features_metadata(features)
     tensor_dict = {k: tf.constant(v) for k, v in np_example.items()
                    if k in features_metadata}

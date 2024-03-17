@@ -95,14 +95,16 @@ def fix_templates_aatype(protein):
 
 def correct_msa_restypes(protein):
     """Correct MSA restype to have the same order as residue_constants."""
-    # (0, 4, 3, 6, 13, 7, 8, 9, 11, 10, 12, 2, 14, 5, 1, 15, 16, 19, 17, 18, 20, 21) <class 'tuple'>
+    # (0, 4, 3, 6, 13, 7, 8, 9, 11, 10, 12, 2, 14, 5, 1, 15, 16, 19, 17, 18, 20, 21)
     new_order_list = residue_constants.MAP_HHBLITS_AATYPE_TO_OUR_AATYPE
     new_order = tf.constant(new_order_list, dtype=protein['msa'].dtype)
+    # original -> index   now -> nums  将hhblits的表示转为
     protein['msa'] = tf.gather(new_order, protein['msa'], axis=0)
 
     perm_matrix = np.zeros((22, 22), dtype=np.float32)
     perm_matrix[range(len(new_order_list)), new_order_list] = 1.
 
+    # 前面好像没有profile
     for k in protein:
         if 'profile' in k:  # Include both hhblits and psiblast profiles
             num_dim = protein[k].shape.as_list()[-1]
@@ -173,7 +175,7 @@ def sample_msa(protein, max_seq, keep_extra):
     """
     num_seq = tf.shape(protein['msa'])[0]  # all sequences
     shuffled = tf.random_shuffle(tf.range(1, num_seq))
-    index_order = tf.concat([[0], shuffled], axis=0)
+    index_order = tf.concat([[0], shuffled], axis=0)  # index 0 要选
     num_sel = tf.minimum(max_seq, num_seq)
 
     sel_seq, not_sel_seq = tf.split(index_order, [num_sel, num_seq - num_sel])
@@ -272,7 +274,7 @@ def nearest_neighbor_clusters(protein, gap_agreement_weight=0.):
 
     # Compute tf.einsum('mrc,nrc,c->mn', sample_one_hot, extra_one_hot, weights)
     # in an optimized fashion to avoid possible memory or computation blowup.
-    # Hamming distance -》 指标
+    # Hamming distance
     agreement = tf.matmul(
         tf.reshape(extra_one_hot, [extra_num_seq, num_res * 23]),
         tf.reshape(sample_one_hot * weights, [num_seq, num_res * 23]),
@@ -293,7 +295,7 @@ def summarize_clusters(protein):
 
     def csum(x):
         return tf.math.unsorted_segment_sum(
-            x, protein['extra_cluster_assignment'], num_seq)  # segmet give a label for x
+            x, protein['extra_cluster_assignment'], num_seq)  # segment give a label for x
 
     # msa 和 extra_msa 已经分开 . protein['msa']为已经sample出的,protein['extra_msa']是剩下的.
     mask = protein['extra_msa_mask']
@@ -575,11 +577,12 @@ def make_atom14_masks(protein):
     restype_atom14_mask = []
 
     for rt in residue_constants.restypes:
+        #  ['N', 'CA', 'C', 'O', 'CB', '', '', '', '', '', '', '', '', '']
         atom_names = residue_constants.restype_name_to_atom14_names[
             residue_constants.restype_1to3[rt]]
 
         restype_atom14_to_atom37.append([
-            (residue_constants.atom_order[name] if name else 0)
+            (residue_constants.atom_order[name] if name else 0)  # 0 , 1 , 2, 3 ,4
             for name in atom_names
         ])
 

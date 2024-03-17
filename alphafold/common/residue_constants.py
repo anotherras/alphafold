@@ -944,22 +944,22 @@ if __name__ == '__main__':
             (atom_order[name] if name else 0)
             for name in atom_names
         ])
-
+        print('====')
+        print(atom_names)
+        print(restype_atom14_to_atom37)
         atom_name_to_idx14 = {name: i for i, name in enumerate(atom_names)}
+        print(atom_name_to_idx14)
         restype_atom37_to_atom14.append([
             (atom_name_to_idx14[name] if name in atom_name_to_idx14 else 0)
             for name in atom_types
         ])
-
+        print(restype_atom37_to_atom14)
         restype_atom14_mask.append([(1. if name else 0.) for name in atom_names])
-
+        print(restype_atom14_mask)
+        break
     restype_atom14_to_atom37.append([0] * 14)
     restype_atom37_to_atom14.append([0] * 37)
     restype_atom14_mask.append([0.] * 14)
-
-    print(restype_atom14_to_atom37)
-    print(restype_atom37_to_atom14)
-    print(restype_atom14_mask)
 
     restype_atom37_mask = np.zeros([21, 37], dtype=np.float32)
     for restype, restype_letter in enumerate(restypes):
@@ -968,4 +968,3 @@ if __name__ == '__main__':
         for atom_name in atom_names:
             atom_type = atom_order[atom_name]
             restype_atom37_mask[restype, atom_type] = 1
-    print(restype_atom37_mask)

@@ -81,6 +81,19 @@ def np_example_to_features(np_example: FeatureDict,
     """Preprocesses NumPy feature dict using TF pipeline."""
     np_example = dict(np_example)
     num_res = int(np_example['seq_length'][0])
+    """
+    feature_names:
+    'template_features': [
+                'template_all_atom_positions', 'template_sum_probs',
+                'template_aatype', 'template_all_atom_masks',
+                'template_domain_names'
+            ],
+            'unsupervised_features': [
+                'aatype', 'residue_index', 'sequence', 'msa', 'domain_name',
+                'num_alignments', 'seq_length', 'between_segment_residues',
+                'deletion_matrix'
+            ],
+    """
     cfg, feature_names = make_data_config(config, num_res=num_res)
 
     if 'deletion_matrix_int' in np_example:
