@@ -7,10 +7,12 @@ import haiku as hk
 import jax
 import jax.numpy as jnp
 
-q_weights = jnp.arange(0, 24).reshape(3, 2, 4)
-q_avg = jnp.arange(0, 6).reshape(2, 3)
-print(q_avg)
-print(q_weights)
+x = jnp.arange(0,24).reshape(4,6)
 
-z = jnp.einsum('ba,ahc->bhc', q_avg, q_weights)
-print(z)
+print(x)
+
+y = jnp.split(x, 3, axis=-1)
+for i in y:
+    print(i)
+p = [x,x,x]
+print(sum(p))

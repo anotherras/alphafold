@@ -156,7 +156,7 @@ class InvariantPointAttention(hk.Module):
         kv_point_local = common_modules.Linear(
             num_head * 3 * (num_point_qk + num_point_v), name='kv_point_local')(
             inputs_1d)
-        kv_point_local = jnp.split(kv_point_local, 3, axis=-1)
+        kv_point_local = jnp.split(kv_point_local, 3, axis=-1)  # num_head * (num_point_qk + num_point_v)
         # Project key and value points into global frame.
         kv_point_global = affine.apply_to_point(kv_point_local, extra_dims=1)
         kv_point_global = [
@@ -203,10 +203,10 @@ class InvariantPointAttention(hk.Module):
         dist2 = [
             squared_difference(qx[:, :, None, :], kx[:, None, :, :])
             for qx, kx in zip(q_point, k_point)
-        ]
+        ]      # num_head , num_residues , num_residues , num_point_channels
         dist2 = sum(dist2)
         attn_qk_point = -0.5 * jnp.sum(
-            point_weights[:, None, None, :] * dist2, axis=-1)
+            point_weights[:, None, None, :] * dist2, axis=-1)  # num_head , num_residues , num_residues
 
         v = jnp.swapaxes(v_scalar, -2, -3)
         q = jnp.swapaxes(scalar_weights * q_scalar, -2, -3)
@@ -325,7 +325,7 @@ class FoldIteration(hk.Module):
                 is_deterministic=self.global_config.deterministic,
                 is_training=is_training)
 
-        affine = quat_affine.QuatAffine.from_tensor(activations['affine'])
+        affine = quat_affine.QuatAffine.from_tensor(activations['affine'])  # init QuatAffine
 
         act = activations['act']
         attention_module = InvariantPointAttention(self.config, self.global_config)
@@ -430,6 +430,7 @@ def generate_affines(representations, batch, config, global_config,
         c.num_channel, name='initial_projection')(
         act)
 
+    # 一个 N_res * 4 的四元数初始矩阵和一个N_res * 3 的trans矩阵
     affine = generate_new_affine(sequence_mask)
 
     fold_iteration = FoldIteration(
