@@ -405,7 +405,6 @@ def make_canonical_transform(
     zeros = jnp.zeros_like(sin_c1)
     ones = jnp.ones_like(sin_c1)
     # pylint: disable=bad-whitespace
-    # counterclockwise？？
     c1_rot_matrix = jnp.stack([jnp.array([cos_c1, -sin_c1, zeros]),
                                jnp.array([sin_c1, cos_c1, zeros]),
                                jnp.array([zeros, zeros, ones])])
@@ -463,4 +462,4 @@ def make_transform_from_reference(
       translation, unlike make_canonical_transform.
     """
     translation, rotation = make_canonical_transform(n_xyz, ca_xyz, c_xyz)
-    return jnp.transpose(rotation, (0, 2, 1)), -translation
+    return jnp.transpose(rotation, (0, 2, 1)), -translation  # 旋转后 -> 旋转前

@@ -316,12 +316,10 @@ def atom37_to_torsion_angles(
         [prev_all_atom_pos[:, :, 1:3, :],  # prev CA, C
          all_atom_pos[:, :, 0:2, :]  # this N, CA
          ], axis=-2)
-    # C == 0 : -1   N, CA, C == :
     phi_atom_pos = jnp.concatenate(
         [prev_all_atom_pos[:, :, 2:3, :],  # prev C
          all_atom_pos[:, :, 0:3, :]  # this N, CA, C
          ], axis=-2)
-    # N, CA, C == :     O :
     psi_atom_pos = jnp.concatenate(
         [all_atom_pos[:, :, 0:3, :],  # this N, CA, C
          all_atom_pos[:, :, 4:5, :]  # this O
@@ -389,9 +387,9 @@ def atom37_to_torsion_angles(
          ], axis=2)
 
     # Create a frame from the first three atoms:
-    # First atom: point on x-y-plane          alpha_C
-    # Second atom: point on negative x-axis      C
-    # Third atom: origin                         N
+    # First atom: point on x-y-plane
+    # Second atom: point on negative x-axis
+    # Third atom: origin
     # r3.Rigids (B, N, torsions=7)
 
     # global frame to local frames

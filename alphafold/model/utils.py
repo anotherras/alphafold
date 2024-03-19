@@ -102,8 +102,7 @@ def mask_mean(mask, value, axis=None, drop_mask_channel=False, eps=1e-10):
         else:
             assert mask_size == value_size
 
-    return (jnp.sum(mask * value, axis=axis) /
-            (jnp.sum(mask, axis=axis) * broadcast_factor + eps))
+    return (jnp.sum(mask * value, axis=axis) / (jnp.sum(mask, axis=axis) * broadcast_factor + eps))
 
 
 def flat_params_to_haiku(params: Mapping[str, np.ndarray]) -> hk.Params:

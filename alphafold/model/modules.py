@@ -688,8 +688,7 @@ class GlobalAttention(hk.Module):
 
         v = jnp.einsum('bka,ac->bkc', m_data, v_weights)
 
-        q_avg = utils.mask_mean(q_mask, q_data, axis=1)  # [batch_size, N_queries, q_channels]
-                                                         # [batch_size, N_queries, q_channels]
+        q_avg = utils.mask_mean(q_mask, q_data, axis=1)  # [N_seq , channels]
 
         q = jnp.einsum('ba,ahc->bhc', q_avg, q_weights) * key_dim ** (-0.5)
         k = jnp.einsum('bka,ac->bkc', m_data, k_weights)
@@ -1573,6 +1572,7 @@ class OuterProductMean(hk.Module):
             dtype=act.dtype,
             init=hk.initializers.Constant(0.0))
 
+        #  N_res * N_seq * N_seq * embedding
         #  left : N_seq , N_res , 32  right : N_seq , N_res , 32  , 暂时有点问题
         def compute_chunk(left_act):
             # This is equivalent to
@@ -1855,7 +1855,7 @@ class EmbeddingsAndEvoformer(hk.Module):
                 create_offset=True,
                 name='prev_msa_first_row_norm')(
                 batch['prev_msa_first_row'])
-            # N_cluster , N_res , 256 + N_res , 256
+            # N_cluster , N_res , 256 + [N_res , 256]
             msa_activations = msa_activations.at[0].add(prev_msa_first_row)
 
             # N_res , N_res , pair_channel(128)
@@ -1987,7 +1987,7 @@ class EmbeddingsAndEvoformer(hk.Module):
                 template_features)
             template_activations = jax.nn.relu(template_activations)
             template_activations = common_modules.Linear(
-                c.msa_channel,                 # 256
+                c.msa_channel,  # 256
                 initializer='relu',
                 name='template_projection')(
                 template_activations)
@@ -2092,7 +2092,7 @@ class SingleTemplateEmbedding(hk.Module):
         to_concat.append(jnp.tile(aatype[:, None, :], [1, num_res, 1]))
 
         n, ca, c = [residue_constants.atom_order[a] for a in ('N', 'CA', 'C')]  # letter to number
-        rot, trans = quat_affine.make_transform_from_reference(  # object -> ori
+        rot, trans = quat_affine.make_transform_from_reference(  # object -> ori   trans : N_res * 3
             n_xyz=batch['template_all_atom_positions'][:, n],
             ca_xyz=batch['template_all_atom_positions'][:, ca],
             c_xyz=batch['template_all_atom_positions'][:, c])
@@ -2101,8 +2101,8 @@ class SingleTemplateEmbedding(hk.Module):
             translation=trans,
             rotation=rot,
             unstack_inputs=True)
-        points = [jnp.expand_dims(x, axis=-2) for x in affines.translation]
-        affine_vec = affines.invert_point(points, extra_dims=1)  # ori -> objet
+        points = [jnp.expand_dims(x, axis=-2) for x in affines.translation]  # [1 * N_res , 1 * N_res ,1 * N_res]
+        affine_vec = affines.invert_point(points, extra_dims=1)
         inv_distance_scalar = jax.lax.rsqrt(
             1e-6 + sum([jnp.square(x) for x in affine_vec]))
 
@@ -2226,7 +2226,6 @@ class TemplateEmbedding(hk.Module):
                                 [num_res, num_res, query_num_channels])
 
         # No gradients if no templates.
-        # ?
         embedding *= (jnp.sum(template_mask) > 0.).astype(embedding.dtype)
 
         return embedding
