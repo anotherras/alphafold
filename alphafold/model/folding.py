@@ -203,7 +203,7 @@ class InvariantPointAttention(hk.Module):
         dist2 = [
             squared_difference(qx[:, :, None, :], kx[:, None, :, :])
             for qx, kx in zip(q_point, k_point)
-        ]      # num_head , num_residues , num_residues , num_point_channels
+        ]  # num_head , num_residues , num_residues , num_point_channels
         dist2 = sum(dist2)
         attn_qk_point = -0.5 * jnp.sum(
             point_weights[:, None, None, :] * dist2, axis=-1)  # num_head , num_residues , num_residues
@@ -381,6 +381,7 @@ class FoldIteration(hk.Module):
 
             affine = affine.pre_compose(affine_update)
 
+        # scale_translation  ???
         sc = MultiRigidSidechain(c.sidechain, self.global_config)(
             affine.scale_translation(c.position_scale), [act, initial_act], aatype)
 

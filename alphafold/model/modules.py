@@ -204,6 +204,7 @@ class AlphaFoldIteration(hk.Module):
 
         heads = {}
         for head_name, head_config in sorted(self.config.heads.items()):
+
             if not head_config.weight:
                 continue  # Do not instantiate zero-weight heads.
 
@@ -232,6 +233,9 @@ class AlphaFoldIteration(hk.Module):
             ret[name].update(loss_output)
             loss = head_config.weight * ret[name]['loss']
             return loss
+
+        # sorted : ['distogram', 'experimentally_resolved', 'masked_msa', 'predicted_aligned_error',
+        # 'predicted_lddt', 'structure_module']
 
         for name, (head_config, module) in heads.items():
             # Skip PredictedLDDTHead and PredictedAlignedErrorHead until

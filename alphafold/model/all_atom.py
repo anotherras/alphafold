@@ -967,7 +967,7 @@ def find_optimal_renaming(
     assert len(atom14_pred_positions.shape) == 3
     assert len(atom14_atom_exists.shape) == 2
 
-    # Create the pred distance matrix.
+    # Create the pred distance matrix.  pred_positions : (N, 14, 3)
     # shape (N, N, 14, 14)
     pred_dists = jnp.sqrt(1e-10 + jnp.sum(
         squared_difference(
